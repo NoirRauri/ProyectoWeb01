@@ -1,0 +1,16 @@
+Tienda tecnologica
+marca: Optimous
+10 pag
+	pc/muestre principales productos
+		Destok
+		Portail
+	console/gama alta-media-bajo
+		varios
+	mobile/gama alta-media-bajo
+		varios
+	lifestyle/merch
+	Service
+	Community
+	Support
+	account
+		form
