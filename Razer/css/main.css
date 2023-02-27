@@ -1,3 +1,47 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+/*-------------- Css for all -----------------*/
+:root {
+  --optimus-primary: #1b5ec1;
+  --optimus-secundary: #ff0033;
+  --text-color: #555;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+.lgtxt,
+.redesIcon {
+  color: var(--optimus-primary) !important;
+}
+
+/*-------------- Css for MAIN -----------------*/
+
+/*-------------- Css for Header -----------------*/
+
+/*-------------- Css for Footer -----------------*/
+
+ul li {
+  list-style: none;
+}
+
+.line-divider {
+  border-bottom: 1px solid var(--optimus-primary);
+  margin: 1rem 0;
+}
+
+@media (max-width: 575px) {
+  .text {
+    text-align: center;
+    font-size: larger;
+  }
 }
