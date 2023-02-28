@@ -17,7 +17,7 @@ Main -M
 	Service -M
 	Community -D 
 	Support -M
-	account -D
+	account -M
 		form
 
 Comandos para subir una archivo a git 
