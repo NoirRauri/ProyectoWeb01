@@ -4,8 +4,7 @@ Main -M
 10 pag
 	pc/muestre principales productos -D
 		Destok - all in one anclas
-		Portail
-		tables PC
+		Portail - tables PC
 	console/ -M
 		PS/Xbox
 		Nintendo
@@ -15,9 +14,9 @@ Main -M
 		gama baja
 	lifestyle/merch -D
 	Service -M
-	Community -D 
+	Community -D
 	Support -M
-	account -D
+	account -M
 		form
 
 Comandos para subir una archivo a git 
