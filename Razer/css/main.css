@@ -3,7 +3,9 @@
   --optimus-primary: #1b5ec1;
   --optimus-secundary: #ff0033;
   --text-color: #555;
+  --title-color: white;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +29,9 @@ a {
 /*-------------- Css for MAIN -----------------*/
 
 /*-------------- Css for Header -----------------*/
-
+.dropdown-menu.show {
+  width: 20rem;
+}
 /*-------------- Css for Footer -----------------*/
 
 ul li {
@@ -35,7 +39,8 @@ ul li {
 }
 
 .line-divider {
-  border-bottom: 1px solid var(--optimus-primary);
+  border-bottom: 0.2rem solid var(--optimus-primary);
+  box-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
   margin: 1rem 0;
 }
 
@@ -43,5 +48,10 @@ ul li {
   .text {
     text-align: center;
     font-size: larger;
+  }
+  .line-divider {
+    border-bottom: 0.2rem solid var(--optimus-primary);
+    box-shadow: 0 4px 1rem var(--optimus-primary);
+    margin: 1rem 0;
   }
 }

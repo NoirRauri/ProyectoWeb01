@@ -18,8 +18,119 @@
   </head>
   <body class="bg-black">
     <main>
-      <header class="container">
-        <nav></nav>
+      <header class="bg-dark shadow-sm navbar-sticky">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a
+              class="navbar-brand d-none d-sm-block me-4 text-primary"
+              href="index.html"
+              ><img src="" alt="" /> OpstimusTec</a
+            >
+            <a class="navbar-brand d-sm-none me-2 order-lg-1" href="index.html"
+              ><img src="" alt="" /> OpT</a
+            >
+            <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+              <button
+                class="navbar-toggler me-auto order-lg-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="dropdown dropstart">
+                <button
+                  type="button"
+                  class="btn btn-primary dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                >
+                  <i class="bi bi-person-circle text-light"></i>
+                </button>
+                <form class="dropdown-menu p-4">
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="emailUser"
+                      placeholder="email@example.com"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="pass" class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="passUser"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <div class="form-check">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="checkUser"
+                      />
+                      <label class="form-check-label" for="dropdownCheck2">
+                        Remember me
+                      </label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">PC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONSOLE</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    MOBILE
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Comunity</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
       </header>
       <!-- Footer -->
       <footer class="container-fluid">
@@ -71,23 +182,23 @@
           </div>
           <div class="col-md-2 col-sm-3 text">
             <div class="py-2">
-              <span class="h5 text-light lgtxt">Redes</span>
+              <span class="h5 text-light lgtxt">REDES</span>
             </div>
             <div class="d-block">
               <ul class="list-group">
-                <li>
+                <li class="pb-2">
                   <a href="#"
-                    ><i class="bi bi-twitter redesIcon"></i> Twitter</a
+                    ><i class="bi bi-twitter redesIcon"></i> | Twitter</a
                   >
                 </li>
-                <li>
+                <li class="pb-2">
                   <a href="#"
-                    ><i class="bi bi-facebook redesIcon"></i> Facebook</a
+                    ><i class="bi bi-facebook redesIcon"></i> | Facebook</a
                   >
                 </li>
-                <li>
+                <li class="pb-2">
                   <a href="#"
-                    ><i class="bi bi-instagram redesIcon"></i> Instagram</a
+                    ><i class="bi bi-instagram redesIcon"></i> | Instagram</a
                   >
                 </li>
               </ul>
