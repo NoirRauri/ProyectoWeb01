@@ -24,6 +24,7 @@ a {
 .lgtxt,
 .redesIcon {
   color: var(--optimus-primary) !important;
+  text-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
 }
 
 /*-------------- Css for MAIN -----------------*/
