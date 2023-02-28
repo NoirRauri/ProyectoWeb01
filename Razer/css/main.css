@@ -24,7 +24,6 @@ a {
 .lgtxt,
 .redesIcon {
   color: var(--optimus-primary) !important;
-  text-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
 }
 
 /*-------------- Css for MAIN -----------------*/
@@ -45,7 +44,13 @@ ul li {
   margin: 1rem 0;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 992px) {
+  .text {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 767px) {
   .text {
     text-align: center;
     font-size: larger;
