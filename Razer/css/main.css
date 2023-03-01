@@ -4,8 +4,10 @@
 :root {
   --optimus-primary: #1b5ec1;
   --optimus-secundary: #ff0033;
-  --text-color: #555;
-  --title-color: white;
+  --bg-OptimusT: #00112b;
+  --bg-OptimusB: #000000;
+  --text-color: #555555;
+  --title-color: #ffffff;
 }
 
 * {
@@ -17,7 +19,7 @@
 }
 
 body {
-  background: linear-gradient(#00112b, black);
+  background: linear-gradient(var(--bg-OptimusT), var(--bg-OptimusB));
   overflow-x: hidden;
 }
 
@@ -38,7 +40,20 @@ a {
   color: var(--optimus-primary) !important;
 }
 
-/*-------------- Css for MAIN -----------------*/
+.btnS {
+  font-size: 20px;
+  color: var(--title-color);
+}
+
+.btnS:hover {
+  color: var(--optimus-primary);
+}
+
+/*-------------- Css for Header -----------------*/
+.dropdown-menu.show {
+  width: 20rem;
+}
+
 /*-------------- Css for Seccion -----------------*/
 .sec01 {
   position: relative;
@@ -82,9 +97,22 @@ a {
 #txtBrand {
   position: absolute;
   right: -400px;
+  transform: translateY(-100px);
   color: var(--title-color);
+  text-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
   white-space: nowrap;
-  font-size: 7.5vh;
+  font-size: 8vh;
+  z-index: 9;
+}
+
+.txtSlogan {
+  position: absolute;
+  text-align: center;
+  transform: translateY(-100px);
+  color: var(--title-color);
+  text-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
+  white-space: nowrap;
+  font-size: 4vh;
   z-index: 9;
 }
 
@@ -95,14 +123,33 @@ a {
   border-radius: 40px;
   background: var(--title-color);
   color: var(--optimus-primary);
+  box-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
   font-size: 1.5rem;
   z-index: 9;
-  transform: translateY(100px);
 }
 
-/*-------------- Css for Header -----------------*/
-.dropdown-menu.show {
-  width: 20rem;
+.sec02 {
+  background-image: url(../img/main/deathadder-v3-pro-faker-hero.jpg);
+  background-position: center;
+  width: 100%;
+  height: 700px;
+}
+.sec03 {
+  background-image: url(../img/main/razer-blade-16-usp6-desktop-new.jpg);
+  background-position: center;
+  height: 700px;
+}
+.colAbg {
+  background-image: url(../img/main/razer-basilisk-v3-pro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+.colBbg {
+  background-image: url(../img/main/black-wolverine-rgb.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 700px;
 }
 /*-------------- Css for Footer -----------------*/
 

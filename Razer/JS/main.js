@@ -11,7 +11,7 @@ window.addEventListener("scroll", function () {
   moon.style.top = value * 1.05 + "px";
   montainsBehind.style.top = value * 0.5 + "px";
   montainsFront.style.top = value * 0 + "px";
-  txtBrand.style.marginRight = value * 3 + "px";
+  txtBrand.style.marginRight = value * 4 + "px";
   txtBrand.style.marginTop = value * 1.5 + "px";
   btn.style.marginTop = value * 1.5 + "px";
 });
