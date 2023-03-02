@@ -1,10 +1,13 @@
+// animacion de la primera seccion del main
+
+// inicializar variables
 let stars = document.getElementById("stars");
 let moon = document.getElementById("moon");
 let montainsBehind = document.getElementById("montainsBehind");
 let txtBrand = document.getElementById("txtBrand");
 let btn = document.getElementById("btn");
 let montainsFront = document.getElementById("montainsFront");
-
+// ejecucion de los eventos scroll
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
   stars.style.left = value * 0.25 + "px";
@@ -15,3 +18,4 @@ window.addEventListener("scroll", function () {
   txtBrand.style.marginTop = value * 1.5 + "px";
   btn.style.marginTop = value * 1.5 + "px";
 });
+// fin de la animacion
