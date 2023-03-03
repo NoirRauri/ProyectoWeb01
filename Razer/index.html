@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body class="bg-black">
-    <header class="bg-dark shadow-sm">
+    <header class="shadow">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand d-none d-sm-block lgtxt me-5" href="index.html"
@@ -38,7 +38,10 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="dropdown dropstart">
+            <button class="btnLogin-popup">
+              <i class="bi bi-person-circle"></i>
+            </button>
+            <!-- <div class="dropdown dropstart">
               <button
                 type="button"
                 class="btn btn-primary dropdown-toggle"
@@ -81,7 +84,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Sign in</button>
               </form>
-            </div>
+            </div> -->
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -184,16 +187,90 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-              <i class="btnS bi bi-search me-3" type="submit"></i>
+              <button class="btnLogin-popup" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
+    <!-- start PopUp -->
+    <div class="wrapper">
+      <span class="iconClose">
+        <i class="bi bi-x-lg"></i>
+      </span>
+
+      <div class="formBox login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+            <input type="email" required />
+            <label for="">@email</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+            <input type="password" required />
+            <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              Remenber me
+            </label>
+            <a href="#">Forgot Password</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="logiRegister">
+            <p>
+              Don't have an account?
+              <a href="#" class="registerLink">Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+
+      <div class="formBox register">
+        <h2>Resgistration</h2>
+        <form action="#">
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-person-fill"></i></span>
+            <input type="text" required />
+            <label for="">Username</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+            <input type="email" required />
+            <label for="">@email</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+            <input type="password" required />
+            <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              I agree to yhe terms & conditions
+            </label>
+          </div>
+          <button type="submit" class="btn">Resgister</button>
+          <div class="logiRegister">
+            <p>
+              Already have an account
+              <a href="#" class="loginLink">login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- end PopUp -->
     <!-- Secctions -->
     <main class="container-fluid">
       <!-- section start -->
-      <section class="row pt-5">
+      <section class="row">
         <div class="col sec01">
           <img src="img/main/stars.png" id="stars" alt="stars" />
           <img src="img/main/moon.png" id="moon" alt="moon" />
