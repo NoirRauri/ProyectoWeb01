@@ -10,17 +10,21 @@
   --title-color: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   color: var(--text-color);
   font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
 }
 
 body {
   background: linear-gradient(var(--bg-OptimusT), var(--bg-OptimusB));
   overflow-x: hidden;
+  min-width: 360px;
 }
 
 /*-------------- Css for Header -----------------*/
@@ -128,28 +132,43 @@ a {
   z-index: 9;
 }
 
+#btn:hover {
+  background: var(--optimus-primary);
+  color: var(--title-color);
+  box-shadow: 0 0.2rem 0.6rem var(--text-color);
+}
+
+.sec02,
+.sec03 {
+  margin: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
 .sec02 {
   background-image: url(../img/main/deathadder-v3-pro-faker-hero.jpg);
-  background-position: center;
-  width: 100%;
-  height: 700px;
 }
 .sec03 {
   background-image: url(../img/main/razer-blade-16-usp6-desktop-new.jpg);
-  background-position: center;
-  height: 700px;
 }
-.colAbg {
-  background-image: url(../img/main/razer-basilisk-v3-pro.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 700px;
+
+.mlink:hover {
+  color: var(--optimus-primary) !important;
+  text-shadow: 0 0.2rem 0.6rem var(--bg-OptimusB);
 }
-.colBbg {
-  background-image: url(../img/main/black-wolverine-rgb.gif);
-  background-repeat: no-repeat;
-  background-position: left;
-  height: 700px;
+.sec04 div.cardAc {
+  margin: 0.5rem 0rem;
+  padding-top: 4rem;
+  background-color: var(--bg-OptimusT);
+  border: 2px solid var(--optimus-primary);
+  box-shadow: 0rem 0.2rem 0.6rem var(--optimus-primary);
+  border-radius: 4px;
+}
+
+.sec04 div img {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 260px;
 }
 /*-------------- Css for Footer -----------------*/
 
