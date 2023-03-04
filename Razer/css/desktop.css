@@ -9,16 +9,21 @@ div.title {
   background-repeat: no-repeat;
   color: var(--title-color);
 }
+
 /*Transicion */
+.secTwo {
+  max-height: 500px;
+}
 div.transitionDesktop {
+  width: 400px;
   transition-property: height;
 }
 div.transitionDesktop:hover {
   background-image: url(../img/Desktop-img/bg-transition1.jpg);
-  height: 750px;
-  transition-delay: 50ms;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  transition-delay: 0.5s ease;
 }
 /*Transicion */
 
