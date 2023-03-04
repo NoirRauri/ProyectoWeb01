@@ -20,13 +20,13 @@ Main -M
 		form
 
 Comandos para subir una archivo a git 
-git status -s 'Visualiza los cambio del proyecto'
-git add . 'agrega todo los doumentos'
-git commit -m "Aggrega comentario"  'Agrega un comentario a los archivos a subir'
-git push  'Sube al repositoryo del proyecto'
+	git status -s 	'Visualiza los cambio del proyecto'
+	git add . 		'agrega todo los doumentos'
+	git commit -m 	"Aggrega comentario"  'Agrega un comentario a los archivos a subir'
+	git push  		'Sube al repositoryo del proyecto'
 
 comandos para actualizar tu repositorio local
-git pull
+	git pull
 
 clonar un repositorio
-git clone url-del-repositorio
+	git clone url-del-repositorio

@@ -1,0 +1,29 @@
+:root {
+  --optimus-primary: #1b5ec1;
+  --optimus-secundary: #ff0033;
+  --bg-OptimusT: #00112b;
+  --bg-OptimusB: #000000;
+  --text-color: #555555;
+  --title-color: #ffffff;
+  --bg-header-color: #00000033;
+  --br-btn-color: #ffffff;
+  --br-form-color: #ffffff80;
+  --bShadow-form-color: #00000080;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(var(--bg-OptimusT), var(--bg-OptimusB));
+  overflow-x: hidden;
+  min-width: 360px;
+}

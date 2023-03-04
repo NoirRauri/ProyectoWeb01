@@ -1,0 +1,19 @@
+/*-------------- Css for Header -----------------*/
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+  background: var(--bg-header-color);
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+.lgtxt,
+.redesIcon {
+  color: var(--optimus-primary) !important;
+  text-shadow: 0rem 0rem 0.2rem var(--optimus-primary);
+}

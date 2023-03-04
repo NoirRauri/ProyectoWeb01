@@ -1,0 +1,29 @@
+/*-------------- Css for Footer -----------------*/
+
+ul li {
+  list-style: none;
+}
+
+.line-divider {
+  border-bottom: 0.2rem solid var(--optimus-primary);
+  box-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
+  margin: 1rem 0;
+}
+
+@media (max-width: 992px) {
+  .text {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    text-align: center;
+    font-size: larger;
+  }
+  .line-divider {
+    border-bottom: 0.2rem solid var(--optimus-primary);
+    box-shadow: 0 4px 1rem var(--optimus-primary);
+    margin: 1rem 0;
+  }
+}
