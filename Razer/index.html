@@ -41,50 +41,6 @@
             <button class="btnLogin-popup">
               <i class="bi bi-person-circle"></i>
             </button>
-            <!-- <div class="dropdown dropstart">
-              <button
-                type="button"
-                class="btn btn-primary dropdown-toggle"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                data-bs-auto-close="outside"
-              >
-                <i class="bi bi-person-circle text-light"></i>
-              </button>
-              <form class="dropdown-menu p-4">
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="emailUser"
-                    placeholder="email@example.com"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="pass" class="form-label">Password</label>
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="passUser"
-                    placeholder="Password"
-                  />
-                </div>
-                <div class="mb-3">
-                  <div class="form-check">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="checkUser"
-                    />
-                    <label class="form-check-label" for="dropdownCheck2">
-                      Remember me
-                    </label>
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
-              </form>
-            </div> -->
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -200,7 +156,6 @@
       <span class="iconClose">
         <i class="bi bi-x-lg"></i>
       </span>
-
       <div class="formBox login">
         <h2>Login</h2>
         <form action="#">
@@ -235,9 +190,19 @@
         <h2>Resgistration</h2>
         <form action="#">
           <div class="inputB">
+            <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
+            <input type="text" required />
+            <label for="">Full Name</label>
+          </div>
+          <div class="inputB">
             <span class="icon"><i class="bi bi-person-fill"></i></span>
             <input type="text" required />
             <label for="">Username</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-telephone-fill"></i></span>
+            <input type="number" required />
+            <label for="">Phone</label>
           </div>
           <div class="inputB">
             <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
@@ -248,6 +213,29 @@
             <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
             <input type="password" required />
             <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="" class="text-uppercase">Gender:</label>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
           </div>
           <div class="rememberForgot">
             <label for="">

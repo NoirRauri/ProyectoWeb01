@@ -82,7 +82,7 @@
   overflow: hidden;
   transform: scale(0);
   z-index: 10000;
-  transition: transform 0.5s ease, height 0.2s ease;
+  transition: transform 0.4s ease, height 0.2s ease;
 }
 
 .wrapper.active-popup {
@@ -90,7 +90,8 @@
 }
 
 .wrapper.active {
-  height: 520px;
+  top: 100px;
+  height: 700px;
 }
 
 .wrapper .formBox {
@@ -139,6 +140,14 @@
   z-index: 1;
 }
 
+.wrapper .iconClose:hover {
+  background: var(--optimus-primary);
+}
+
+.wrapper .iconClose i:hover {
+  color: var(--title-color);
+}
+
 .wrapper .formBox h2 {
   font-size: 2em;
   color: var(--title-color);
@@ -157,6 +166,7 @@
   position: absolute;
   top: 20%;
   left: 40px;
+  color: var(--title-color);
   transform: translateX(-50%);
   font-size: 1em;
   color: 500;
@@ -176,7 +186,7 @@
   border: none;
   outline: none;
   font-size: 1em;
-  color: var(--optimus-primary);
+  color: var(--title-color);
   font-weight: 600;
   padding: 0 35px 0 5px;
 }
@@ -226,7 +236,7 @@ a {
 }
 
 .btn:hover {
-  background: var(--bg-OptimusT);
+  background: var(--optimus-primary);
   color: var(--title-color);
 }
 
