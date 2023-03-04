@@ -3,8 +3,9 @@
 div.title{
     background-image: url(../img/Desktop-img/desktop.bg.img2.jpg);
     background-size: 100%;
-    height: 700px;
+    height: 1000px;
     margin: 0px ;
+    background-size: cover;
     background-repeat: no-repeat;
     color: var(--title-color);
 }
@@ -28,15 +29,14 @@ span.intro-main-text{
     
 }
 
-section.optimus{
-    height: 1200px;
-    max-width: 100%;
-}
+
 
 div.bgOptimus{
-    background-image: url(../img/Desktop-img/bg-optimus5.jpg);
+    background-image: url(../img/Desktop-img/bg-optimus6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1500px;
+    height: 1300px;
 }
 
 
@@ -65,8 +65,8 @@ div.carouselClass{
 
 section.lastMainSection{
     height: 1500px;
-    max-width: 100%;
-    background-image: url(../img/Desktop-img/lastMainSection2.jpg);
+    width: 2000px;
+    background-image: url(../img/Desktop-img/lastMainSection3.jpg);
     background-repeat: no-repeat;
 }
 
