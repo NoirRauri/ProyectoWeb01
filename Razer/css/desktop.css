@@ -6,25 +6,29 @@ div.title{
     height: 700px;
     margin: 20px;
     background-repeat: no-repeat;
-    
+    color: var(--title-color);
 }
 
 
-h1.textTitle1:hover{
-    background-color: black;
-}
-
-h1.textTitle1{
+.animationTitle{
     width: 600px;
     height: 50px;
     position: relative;
     animation: mymove 7s infinite;
     animation-direction: alternate-reverse;
-    animation-timing-function:ease-in-out;
-    
+    animation-timing-function:ease-in-out;  
 }
 @keyframes mymove {
-    from {top: -250px;}
-    to {top: 150px;}
+    from {left: 0px;}
+    to {left: 750px;}
   }
+
+h1.animationTitle{
+    color: var(--title-color);
+}
+
+div.carouselClass{
+    background-color: var(#00000033);
+}
+
 /*---Main---*/
