@@ -1,6 +1,6 @@
 /* @import url("Color-StandardSettings.css"); */
 .imdBg {
-  background-color: rgba(0, 0, 0, 0.418);
+  background-color: var(--optimus-primary);
   margin: 0 auto;
   width: 90%;
   height: 300px;
