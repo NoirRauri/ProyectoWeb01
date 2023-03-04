@@ -4,12 +4,43 @@ div.title{
     background-image: url(../img/Desktop-img/desktop.bg.img2.jpg);
     background-size: 100%;
     height: 700px;
-    margin: 20px;
+    margin: 0px ;
     background-repeat: no-repeat;
     color: var(--title-color);
 }
 
+.cardQuote{
+    background-image: url(../img/Desktop-img/bg-quote.jpg);
+    padding: 0% !important;
+    margin: 0% !important ;
 
+}
+
+div.intro-main{
+    background-color:black;    
+    height: 250px;
+    margin: 0 ;
+
+
+}
+span.intro-main-text{
+    width: 50%;
+    
+}
+
+section.optimus{
+    height: 1200px;
+    max-width: 100%;
+}
+
+div.bgOptimus{
+    background-image: url(../img/Desktop-img/bg-optimus5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*animacion*/
 .animationTitle{
     width: 600px;
     height: 50px;
@@ -26,9 +57,17 @@ div.title{
 h1.animationTitle{
     color: var(--title-color);
 }
-
+/*animacion*/
 div.carouselClass{
     background-color: var(#00000033);
+}
+
+
+section.lastMainSection{
+    height: 1500px;
+    max-width: 100%;
+    background-image: url(../img/Desktop-img/lastMainSection2.jpg);
+    background-repeat: no-repeat;
 }
 
 /*---Main---*/
