@@ -1,13 +1,101 @@
 /*---Main---*/
-h{
-    color: var(--text-color);
+
+div.title{
+    background-image: url(../img/Desktop-img/bg-transition4.jpg);
+    background-size: 100%;
+    height: 1000px;
+    margin: 0px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--title-color);
 }
+/*Transicion */
+div.transitionDesktop{
+    transition-property:height;
+      
+  }
+  div.transitionDesktop:hover{
+    
+      background-image: url(../img/Desktop-img/bg-transition1.jpg);
+      height: 750px;
+      transition-delay: 50ms;
+      transition-timing-function: ease-in-out;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+/*Transicion */  
 
-section.bestseller{
-    background-image:url(destokp-bestseller.jpg);
-
+.cardQuote{
+    background-image: url(../img/Desktop-img/bg-quote.jpg);
+    padding: 0% !important;
+    margin: 0% !important ;
     
 }
 
+div.intro-main{
+    background-color:black;    
+    height: 350px;
+    padding-top: 100px ;
+
+}
+/*Transicion */
+div.transitioAllInOne{
+  transition-property:height;
+    
+}
+div.transitioAllInOne:hover{
+  
+    background-image: url(../img/Desktop-img/bg-transition2.jpg);
+    height: 750px;
+    transition-delay: 50ms;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Transicion */
+span.intro-main-text{
+    width: 50%;
+    
+}
+
+
+
+div.bgOptimus{
+    background-image: url(../img/Desktop-img/bg-optimus6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+    height: 1300px;
+}
+
+
+/*animacion*/
+.animationTitle{
+    width: 600px;
+    height: 50px;
+    position: relative;
+    animation: mymove 7s infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:ease-in-out;  
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 750px;}
+  }
+
+h1.animationTitle{
+    color: var(--title-color);
+}
+/*animacion*/
+div.carouselClass{
+    background-color: var(#00000033);
+}
+
+
+section.lastMainSection{
+    height: 1000px;
+    width: 2000px;
+    background-image: url(../img/Desktop-img/desktop.bg.img2.jpg);
+    background-repeat: no-repeat;
+}
 
 /*---Main---*/
