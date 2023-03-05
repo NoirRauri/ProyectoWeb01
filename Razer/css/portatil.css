@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* colores y configuracion estandar */
+@import url("Color-StandardSettings.css");
+/* importacion de styles del header */
+@import url("header.css");
+/* importacion de styles del footer */
+@import url("footer.css");
+
+html {
+    scroll-behavior: smooth;
+  }
+/*Main*/
+.PortatilSecOne{
+    height: 700px;
+  }
+
+  div.PortatilTableTitle {
+    background-image: url(../img/Desktop-img/bg-deskAll.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--title-color);
+  }
+  h1.PortatilTabletextTitle {
+    position: relative;
+    bottom: 55px;
+    text-shadow: 3px 2px 3px #ff0033;
+    font-size: 70px;
+  }
+
+  /*intro.main Laptops y Tablet del hover*/
+div.intro-main {
+    background-color: black;
+    height: 350px;
+    padding-top: 100px;
+  }
+
+  /*Transicion Laptops */
+.PortatilSecTwo {
+    max-height: 600px;
+  }
+  div.transitionPortatil {
+    width: 500px;
+    transition-property: height ease;
+  }
+  div.transitionPortatil:hover {
+    background-image: url(../img/Portatil-img/portatil-trans2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    
+  }
+
+  div.transitionTablets {
+    width: 500px;
+    transition-property: height ease;
+  }
+  div.transitionTablets:hover {
+    background-image: url(../img/Portatil-img/tablets-trans3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    
+  }
+  
+ 
+  /*Transicion */
+  
