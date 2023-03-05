@@ -1,17 +1,74 @@
-/* @import url("Color-StandardSettings.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* colores y configuracion estandar */
+@import url("Color-StandardSettings.css");
+/* importacion de styles del header */
+@import url("header.css");
+/* importacion de styles del footer */
+@import url("footer.css");
+
+body {
+  min-width: 550px;
+}
+
+main.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0 auto;
+  /* height: 700px; */
+}
+
+.sec02,
+.sec03,
+.sec04,
+.sec05 {
+  padding: 20px 0;
+}
+
+.sec02,
+.sec04 {
+  /* background: var(--bg-table-color); */
+  background-color: #111111;
+}
+
+.sec03,
+.sec05 {
+  /* background: var(--text-color); */
+  background-color: #161616;
+}
+
+.sec05 {
+  width: 100%;
+}
+
+.coverage,
+.comunity,
+.ask {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.comunity {
+  margin: 100px auto;
+}
+
+table.table {
+  border: 1px solid var(--text-color);
+  background: #111111;
+  color: var(--title-color);
+}
+
 .imdBg {
-  background-color: var(--optimus-primary);
   margin: 0 auto;
   width: 90%;
   height: 300px;
 }
-body {
-  min-width: 550px;
-}
+
 .opinions {
   position: absolute;
   margin: 0 auto;
-  padding: 50px 150px 0 150px;
+  padding: 40px 160px;
   width: 100%;
   text-align: center;
   color: var(--title-color);
@@ -20,6 +77,21 @@ body {
 .opinions .bi {
   font-size: 30px;
   color: var(--optimus-primary);
+}
+
+.accordion-collapse {
+  background: #111111;
+  color: var(--title-color);
+}
+
+.card {
+  background: #161616;
+}
+
+@media (max-width: 960px) {
+  .opinions {
+    padding: 20px 70px;
+  }
 }
 
 @media (max-width: 770px) {
