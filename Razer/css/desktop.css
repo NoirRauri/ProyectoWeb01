@@ -137,7 +137,7 @@ div.bgOptimus{
 }
 /*Return*/
 .btnReturn {
-    margin: 20px 0;
+    margin: 0px 0;
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -154,6 +154,10 @@ div.bgOptimus{
     color: var(--title-color);
     box-shadow: 0 0.2rem 0.6rem var(--text-color);
   }
+
+.jumbotron-fluid{
+    margin-top: 40px;
+}
   
 
 /*---Main---*/
