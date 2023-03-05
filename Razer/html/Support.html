@@ -14,16 +14,395 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/Support.css" />
+    <link rel="stylesheet" href="../css/support.css" />
   </head>
+
   <body>
+    <!-- Strat Header -->
+    <header class="shadow">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand d-none d-sm-block lgtxt me-5" href="index.html"
+            ><img src="" alt="" /> OpstimusTec</a
+          >
+          <a class="navbar-brand d-sm-none me-2 lgtxt" href="index.html"
+            ><img src="" alt="" /> OpT</a
+          >
+          <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+            <button
+              class="navbar-toggler me-auto order-lg-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <button class="btnLogin-popup">
+              <i class="bi bi-person-circle"></i>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown me-5">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PC
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Desktop</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Portatil</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">All in One</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Tablets PC</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-5">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  CONSOLE
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Play-Station</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">XBOX</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Nintendo</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-5">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MOBILE
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">SmartPhone</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Tablets</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Other Brands</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-5">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  COMUNITY
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">LifeStyle</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Service</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Community</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Support</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Account</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btnLogin-popup" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- start PopUp -->
+      <div class="wrapper">
+        <span class="iconClose">
+          <i class="bi bi-x-lg"></i>
+        </span>
+        <div class="formBox login">
+          <h2>Login</h2>
+          <form action="#">
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+              <input type="email" required />
+              <label for="">@email</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+              <input type="password" required />
+              <label for="">password</label>
+            </div>
+            <div class="rememberForgot">
+              <label for="">
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                Remenber me
+              </label>
+              <a href="#">Forgot Password</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="logiRegister">
+              <p>
+                Don't have an account?
+                <a href="#" class="registerLink">Register</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="formBox register">
+          <h2>Resgistration</h2>
+          <form action="#">
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
+              <input type="text" required />
+              <label for="">Full Name</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-person-fill"></i></span>
+              <input type="text" required />
+              <label for="">Username</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-telephone-fill"></i></span>
+              <input type="number" required />
+              <label for="">Phone</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+              <input type="email" required />
+              <label for="">@email</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+              <input type="password" required />
+              <label for="">password</label>
+            </div>
+            <div class="rememberForgot">
+              <label for="" class="text-uppercase">Gender:</label>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineRadio2"
+                  >Female</label
+                >
+              </div>
+            </div>
+            <div class="rememberForgot">
+              <label for="">
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                I agree to yhe terms & conditions
+              </label>
+            </div>
+            <button type="submit" class="btn">Resgister</button>
+            <div class="logiRegister">
+              <p>
+                Already have an account
+                <a href="#" class="loginLink">login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- end PopUp -->
+    </header>
+    <!-- end Header -->
+
     <main class="container-fluid">
-      <section class="row"></section>
-      <section class="row"></section>
-      <section class="row">
-        <div>
-          <div class="accordion" id="accordionExample">
+      <!-- seccion01 -->
+      <section class="row text-light">
+        <div class="comunity">
+          <section class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- seccion02 table -->
+      <section class="row sec02 text-center">
+        <div class="coverage">
+          <div>
+            <span class="h1 text-primary"
+              >OptimusTec-Care Coverage Options</span
+            >
+            <p class="fw-light text-light">
+              Both RazerCare protection plans extend your coverage upon
+              expiration of the Razer Limited Warranty.
+            </p>
+          </div>
+          <table class="table table-hover">
+            <thead>
+              <tr class="text-primary">
+                <th scope="col"></th>
+                <th scope="col">Essential</th>
+                <th scope="col">Elite</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Automatic registration</th>
+                <td>✓</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <th scope="row">24-hour RazerCare claim support</th>
+                <td>✓</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <th scope="row">Mechanical and electrical failures</th>
+                <td>✓</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <th scope="row">Surge protection (from day 1)</th>
+                <td>✓</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <th scope="row">Accidental damage coverage (from day 1)</th>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Accidental damage coverage (from day 1)</th>
+                <td>-</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <th scope="row">Spills</th>
+                <td>-</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <th scope="row">Falls</th>
+                <td>-</td>
+                <td>✓</td>
+              </tr>
+              <tr>
+                <th scope="row">Collisions</th>
+                <td>-</td>
+                <td>✓</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- seccion03 ask Community or assistens -->
+      <section class="sec03 text-light">
+        <div class="comunity">
+          <section class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">
+                    With supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- seccion04 preguntas frecuentes -->
+      <section class="row sec04">
+        <div class="ask">
+          <div class="text-center mb-3">
+            <span class="h1 text-light">High frequency FAQ</span>
+          </div>
+          <div class="accordion accordion-flush" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button
@@ -39,7 +418,7 @@
               </h2>
               <div
                 id="collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample"
               >
@@ -105,20 +484,18 @@
                     there are cases where the system version is upgraded but the
                     baseband version is not upgraded.
                   </p>
-                  <div>
+                  <div class="text-center">
                     <h6>Does it help?</h6>
-                    <div class="">
+                    <div class="align-content-around">
                       <input
                         class="btn btn-primary"
                         type="button"
                         value="YES"
-                        width="50px"
                       />
                       <input
                         class="btn btn-primary"
                         type="button"
                         value="NOT"
-                        width="50px"
                       />
                     </div>
                   </div>
@@ -145,20 +522,68 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong
-                    >After the baseband information is lost, the SIM card will
-                    not be recognized. You can go to</strong
-                  >After the baseband information is lost, the SIM card will not
-                  be recognized. You can go to
-                  <code
-                    >Settings---About Device---All specs---Baseband
-                    Version</code
-                  >
-                  to check the baseband version. If the baseband version is
-                  displayed as "unknown" or "baseband information is lost",
-                  which may means that the baseband firmware is abnormal, you
-                  can try to update MIUI to the latest version to fix it; if it
-                  is still not resolved, apply for after-sales service.
+                  If you use the backup software on the Xiaomi phone to perform
+                  backup, you failed to see the previous backup when restoring
+                  the backup, but there is a corresponding folder in the
+                  corresponding directory of the virtual SD card, which may be
+                  caused by the following reasons:
+                  <ul>
+                    <li>
+                      1. The backup software will be improved with the system
+                      upgrade. If downgrades the phone system or the system
+                      version span is too large, the backup may not be able to
+                      restore.
+                    </li>
+                    <li>
+                      2. During the backup process or after the backup is
+                      completed, if an error occurs in a file in the backup, the
+                      backed-up file may not be detected.
+                    </li>
+                  </ul>
+                  <div>
+                    <strong>Troubleshooting steps:</strong>
+                    <ul>
+                      <li>
+                        1. If the system version span is too large and cannot be
+                        restored, it is recommended to contact the after-sales
+                        service.
+                      </li>
+                      <li>
+                        2. If the backup cannot be restored due to an error in a
+                        certain file during or after the backup, perform the
+                        following operations:
+                      </li>
+                    </ul>
+                  </div>
+                  First, we call the original user backup as A backup, and
+                  create a new backup as B backup. Enter the MIUIBackupAllbackup
+                  directory of file management, and there will be folders for A
+                  backup and B backup. Enter the backup folder of A, and put the
+                  bak-format files that need to be restored to the folder
+                  corresponding to backup B. Then put the description.xml file
+                  in backup A in the corresponding folder of backup B. After the
+                  operation is complete, restart the phone and try to restore
+                  backup B to restore the contents of backup A.
+                  <div>
+                    <strong>Notes:</strong>
+                  </div>
+                  If the backup is encrypted, this method cannot solve the
+                  problem.
+                  <div class="text-center">
+                    <h6>Does it help?</h6>
+                    <div class="align-content-around">
+                      <input
+                        class="btn btn-primary"
+                        type="button"
+                        value="YES"
+                      />
+                      <input
+                        class="btn btn-primary"
+                        type="button"
+                        value="NOT"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -172,7 +597,7 @@
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  Accordion Item #3
+                  How to disable phone proximity sensor?
                 </button>
               </h2>
               <div
@@ -182,23 +607,28 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <strong>How to disable phone proximity sensor?</strong><br />
+                  You can disable the proximity sensor as the following path:
+                  <code
+                    >Settings>> Apps>> System app settings>> Call settings>>
+                    Incoming call Settings>> Proximity sensor</code
+                  >
+                </div>
+                <div class="text-center m-2">
+                  <strong>Does it help?</strong>
+                  <div class="align-content-around">
+                    <input class="btn btn-primary" type="button" value="YES" />
+                    <input class="btn btn-primary" type="button" value="NOT" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- secction carrucel for opinions -->
-      <section class="row">
+
+      <!-- secction05 carrucel for opinions -->
+      <section class="row sec05">
         <div>
           <div class="text-center text-light p-2">
             <h1>What Our Customers Are Saying</h1>
@@ -319,6 +749,94 @@
       </section>
     </main>
 
+    <!-- start Footer -->
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 text">
+          <div class="py-2">
+            <span class="h5 text-light">OptimusTec Comunity</span>
+          </div>
+          <div class="d-block">
+            <ul class="list-group">
+              <li><a href="#">LifeStyle</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">account</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 text">
+          <div class="py-2"><span class="h5 text-light">PC</span></div>
+          <div class="d-block">
+            <ul class="list-group">
+              <li><a href="#">Desktop</a></li>
+              <li><a href="#">Portatil</a></li>
+              <li><a href="#">All in One</a></li>
+              <li><a href="#">Tablets</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 text">
+          <div class="py-2"><span class="h5 text-light">CONSOLE</span></div>
+          <div class="d-block">
+            <ul class="list-group">
+              <li><a href="#">PlayStation</a></li>
+              <li><a href="#">XBOX</a></li>
+              <li><a href="#">Nintendo</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 text">
+          <div class="py-2"><span class="h5 text-light">MOBILE</span></div>
+          <div class="d-block">
+            <ul class="list-group">
+              <li><a href="#">SmarkPhone</a></li>
+              <li><a href="#">Tablets</a></li>
+              <li><a href="#">Other Brands</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 text">
+          <div class="py-2">
+            <span class="h5 text-light lgtxt">REDES</span>
+          </div>
+          <div class="d-block">
+            <ul class="list-group">
+              <li class="pb-2">
+                <a href="#"
+                  ><i class="bi bi-twitter redesIcon"></i> | Twitter</a
+                >
+              </li>
+              <li class="pb-2">
+                <a href="#"
+                  ><i class="bi bi-facebook redesIcon"></i> | Facebook</a
+                >
+              </li>
+              <li class="pb-2">
+                <a href="#"
+                  ><i class="bi bi-instagram redesIcon"></i> | Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="line-divider"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <span class="footer"
+            >Copyright © 2023 OptimusTec. All rights reserved</span
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- end Footer -->
+    <script src="../JS/account.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
