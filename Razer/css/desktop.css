@@ -1,3 +1,6 @@
+html {
+    scroll-behavior:smooth;
+  }
 /*---Main---*/
 /* .row {
   height: 700px;
@@ -13,13 +16,19 @@ div.title {
   background-repeat: no-repeat;
   color: var(--title-color);
 }
+h1.textTitle{
+    position: relative;
+    bottom: 55px;
+    text-shadow: 3px 2px 3px #ff0033;
+    font-size: 70px;
+}
 
-/*Transicion */
+/*Transicion Desktop */
 .secTwo {
-  max-height: 500px;
+  max-height: 600px;
 }
 div.transitionDesktop {
-  width: 400px;
+  width: 500px;
   transition-property: height ease;
 }
 div.transitionDesktop:hover {
@@ -32,39 +41,33 @@ div.transitionDesktop:hover {
 /*Transicion */
 
 .cardQuote {
-  background-image: url(../img/Desktop-img/bg-quote.jpg);
-  padding: 0% !important;
-  margin: 0% !important ;
+    background-color:thistle;
+    margin: 25px;
+    /* padding: px; */
 }
 
+/*intro.main desktop y all in one antes del hover*/
 div.intro-main {
   background-color: black;
   height: 350px;
   padding-top: 100px;
 }
-/*Transicion */
-div.transitioAllInOne {
-  transition-property: height;
-}
-div.transitioAllInOne:hover {
-  background-image: url(../img/Desktop-img/bg-transition2.jpg);
-  height: 750px;
-  transition-delay: 50ms;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/*Transicion */
-span.intro-main-text {
-  width: 50%;
-}
 
-div.bgOptimus {
-  background-image: url(../img/Desktop-img/bg-optimus6.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
+/*Transicion All in one*/
+.secNine {
+    max-height: 600px;
+  }
+  div.transitionAllInOne {
+    width: 500px;
+    transition-property: height ease;
+  }
+  div.transitionAllInOne:hover {
+    background-image: url(../img/Desktop-img/bg-transition2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+  }
 /*animacion*/
 .animationTitle {
   width: 600px;
@@ -73,6 +76,7 @@ div.bgOptimus {
   animation: mymove 7s infinite;
   animation-direction: alternate-reverse;
   animation-timing-function: ease-in-out;
+  
 }
 @keyframes mymove {
   from {
@@ -87,6 +91,7 @@ h1.animationTitle {
   color: var(--title-color);
 }
 /*animacion*/
+
 .carouselClass {
   background-color: var(--bg-OptimusB);
 }
@@ -100,11 +105,55 @@ h1.animationTitle {
 }
 /* end img */
 
-section.lastMainSection {
-  height: 1000px;
-  width: 2000px;
-  background-image: url(../img/Desktop-img/desktop.bg.img2.jpg);
-  background-repeat: no-repeat;
+/*OptimusTec slogan*/
+section.rowOptimus{
+    max-height: 700px;
+    margin: 40px 0;
+    font-size: 50px;
 }
+div.bgOptimus{
+    background-image: url(../img/Desktop-img/bg-optimus6.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.h1Optimus:hover{
+    text-shadow: 3px 2px 3px #ff0033;
+}
+.strongOptimus:hover{
+    text-shadow: 3px 2px 3px #ff0033;
+    font-size: 60px;   
+}
+ 
+
+.strongOptimus2{
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+}
+.strongOptimus2:hover{
+    text-shadow: 3px 2px 3px #ff0033;
+    font-size: 40px;   
+}
+/*Return*/
+.btnReturn {
+    margin: 20px 0;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: var(--title-color);
+    color: var(--optimus-primary);
+    box-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
+    font-size: 1.5rem;
+    z-index: 9;
+  }
+  
+  .btnReturn:hover {
+    background: var(--optimus-primary);
+    color: var(--title-color);
+    box-shadow: 0 0.2rem 0.6rem var(--text-color);
+  }
+  
 
 /*---Main---*/
