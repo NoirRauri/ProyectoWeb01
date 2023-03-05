@@ -16,14 +16,21 @@ main.container-fluid {
 
 .row {
   margin: 0 auto;
-  /* height: 700px; */
 }
 
+.sec01,
 .sec02,
 .sec03,
 .sec04,
 .sec05 {
   padding: 20px 0;
+}
+
+.sec01 {
+  background-image: url("../img/Support/home_search_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
 }
 
 .sec02,
@@ -38,6 +45,11 @@ main.container-fluid {
   background-color: #161616;
 }
 
+.sec03 {
+  height: 400px;
+  display: flex;
+}
+
 .sec05 {
   width: 100%;
 }
@@ -50,13 +62,17 @@ main.container-fluid {
 }
 
 .comunity {
-  margin: 100px auto;
+  margin: auto;
 }
 
 table.table {
   border: 1px solid var(--text-color);
   background: #111111;
   color: var(--title-color);
+}
+
+.card {
+  border: var(--optimus-primary);
 }
 
 .imdBg {
