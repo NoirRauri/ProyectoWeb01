@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <!-- Strat Header -->
+    <!-- Start Header -->
     <header class="shadow">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
@@ -46,7 +46,7 @@
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown me-5">
+              <li class="nav-item dropdown me-5 lowbar">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -57,60 +57,25 @@
                   PC
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Desktop</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Portatil</a>
+                    <a class="dropdown-item" href="html/Desktop.html"
+                      >Desktop</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">All in One</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Tablets PC</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown me-5">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  CONSOLE
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Play-Station</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">XBOX</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Nintendo</a>
+                    <a class="dropdown-item" href="html/Portatil.html"
+                      >Portatil</a
+                    >
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown me-5">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  MOBILE
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">SmartPhone</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Tablets</a>
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Other Brands</a>
-                  </li>
-                </ul>
+              <li class="nav-item dropdown me-5 lowbar">
+                <a class="nav-link" href="html/Console.html"> CONSOLE </a>
               </li>
-              <li class="nav-item dropdown me-5">
+              <li class="nav-item dropdown me-5 lowbar">
+                <a class="nav-link" href="html/Mobile.html"> MOBILE </a>
+              </li>
+              <li class="nav-item dropdown me-5 lowbar">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -121,19 +86,25 @@
                   COMUNITY
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">LifeStyle</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Service</a>
+                  <li class="lowbar">
+                    <a class="dropdown-item" href="html/Lifestyle.html"
+                      >LifeStyle</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Community</a>
+                    <a class="dropdown-item" href="html/Service.html"
+                      >Service</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Support</a>
+                    <a class="dropdown-item" href="html/Community.html"
+                      >Community</a
+                    >
                   </li>
-                  <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Account</a>
+                    <a class="dropdown-item" href="html/Support.html"
+                      >Support</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -262,33 +233,22 @@
 
     <main class="container-fluid">
       <!-- seccion01 -->
-      <section class="row text-light">
+      <section class="sec01 row text-light">
         <div class="comunity">
-          <section class="row">
-            <div class="col-md-6 mb-3 mb-md-0">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
+          <section class="col text-center">
+            <span class="h1 text-light">Welcome to Optimus-Tec Support</span>
+            <br /><span class="h4 fw-light py-4">We’re here to help</span>
+            <form class="d-flex py-4" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btnLogin-popup" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
           </section>
         </div>
       </section>
@@ -368,27 +328,27 @@
       <section class="sec03 text-light">
         <div class="comunity">
           <section class="row">
-            <div class="col-md-6 mb-3 mb-md-0">
-              <div class="card">
+            <div class="col-lg-6 col-md-12 mb-3 mb-md-0">
+              <div class="card text-center align-content-between">
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
+                  <h5 class="card-title">OPTIMUS-TEC INSIDER</h5>
                   <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                    Have a question? Ask the Razer Community for help!
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="upcoming.html" class="btn btn-primary"
+                    >Enter Insider</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="card">
+            <div class="col-lg-6 col-md-12">
+              <div class="card text-center">
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">NEED HELP?</h5>
+                  <p class="card-text">Get support by phone, chat, or email</p>
+                  <a href="upcoming.html" class="btn btn-primary"
+                    >Contact Support</a
+                  >
                 </div>
               </div>
             </div>
@@ -751,49 +711,54 @@
 
     <!-- start Footer -->
     <footer class="container-fluid">
-      <div class="row">
+      <div class="row py-2">
         <div class="col-lg-4 col-md-6 text">
           <div class="py-2">
-            <span class="h5 text-light">OptimusTec Comunity</span>
+            <span class="h5 text-primary">OptimusTec Comunity</span>
           </div>
           <div class="d-block">
             <ul class="list-group">
-              <li><a href="#">LifeStyle</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Community</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">account</a></li>
+              <li><a href="html/Lifestyle.html">LifeStyle</a></li>
+              <li><a href="html/Service.html">Service</a></li>
+              <li><a href="html/Community.html">Community</a></li>
+              <li><a href="html/Support.html">Support</a></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 text">
-          <div class="py-2"><span class="h5 text-light">PC</span></div>
+          <div class="py-2"><span class="h5 text-primary">PC</span></div>
           <div class="d-block">
             <ul class="list-group">
-              <li><a href="#">Desktop</a></li>
-              <li><a href="#">Portatil</a></li>
-              <li><a href="#">All in One</a></li>
-              <li><a href="#">Tablets</a></li>
+              <li><a href="html/Desktop.html">Desktop / All in One</a></li>
+              <li><a href="html/Portatil.html">Portatil / Tablets</a></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 text">
-          <div class="py-2"><span class="h5 text-light">CONSOLE</span></div>
+          <div class="py-2"><span class="h5 text-primary">CONSOLE</span></div>
           <div class="d-block">
             <ul class="list-group">
-              <li><a href="#">PlayStation</a></li>
-              <li><a href="#">XBOX</a></li>
-              <li><a href="#">Nintendo</a></li>
+              <li>
+                <a href="html/Console.html"
+                  >PlayStation <br />
+                  XBOX <br />
+                  Nintendo</a
+                >
+              </li>
             </ul>
           </div>
         </div>
         <div class="col-lg-2 col-md-6 text">
-          <div class="py-2"><span class="h5 text-light">MOBILE</span></div>
+          <div class="py-2"><span class="h5 text-primary">MOBILE</span></div>
           <div class="d-block">
             <ul class="list-group">
-              <li><a href="#">SmarkPhone</a></li>
-              <li><a href="#">Tablets</a></li>
-              <li><a href="#">Other Brands</a></li>
+              <li>
+                <a href="html/Mobile.html"
+                  >SmarkPhone <br />
+                  Tablets <br />
+                  Other Brands</a
+                >
+              </li>
             </ul>
           </div>
         </div>
