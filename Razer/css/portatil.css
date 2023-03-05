@@ -15,7 +15,7 @@ html {
   }
 
   div.PortatilTableTitle {
-    background-image: url(../img/Desktop-img/bg-deskAll.jpg);
+    background-image: url(../img/Desktop/bg-deskAll.jpg);
     background-size: 100%;
     background-size: cover;
     background-position: center;
@@ -45,7 +45,7 @@ div.intro-main {
     transition-property: height ease;
   }
   div.transitionPortatil:hover {
-    background-image: url(../img/Portatil-img/portatil-trans2.jpg);
+    background-image: url(../img/Portatil/portatil-trans2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -58,7 +58,7 @@ div.intro-main {
     transition-property: height ease;
   }
   div.transitionTablets:hover {
-    background-image: url(../img/Portatil-img/tablets-trans3.jpg);
+    background-image: url(../img/Portatil/tablets-trans3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
