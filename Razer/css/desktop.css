@@ -10,9 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 /*---Main---*/
-/* .row {
-  height: 700px;
-} */
+
 .secOne {
   height: 700px;
 }
@@ -40,7 +38,7 @@ div.transitionDesktop {
   transition-property: height ease;
 }
 div.transitionDesktop:hover {
-  background-image: url(../img/Desktop-img/bg-transition1.jpg);
+  background-image: url(../img/Desktop-img/desktop-bg-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
