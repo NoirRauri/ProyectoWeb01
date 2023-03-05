@@ -2,7 +2,7 @@ Tienda tecnologica
 marca: Optimous
 
 M=michael - D=Daniel - 
-N=none S=start - M=missing - E=end
+N=none - S=start - M=missing - E=end
 
 Main-Index -M-E
 10-PagSec

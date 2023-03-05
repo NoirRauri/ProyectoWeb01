@@ -30,7 +30,7 @@ a {
   font-size: 1.1rem;
   /* color: var(--title-color) !important; */
 }
-.navbar-nav li::after {
+li.lowbar::after {
   content: "";
   position: absolute;
   left: 0;
@@ -43,9 +43,19 @@ a {
   transition: transform 0.5s;
 }
 
-.navbar-nav li:hover:after {
-  transform-origin: left;
+li.lowbar:hover:after {
+  transform-origin: top;
   transform: scaleX(1);
+}
+
+@media (max-width: 991px) {
+  li.lowbar::after {
+    width: 0;
+  }
+  li.lowbar:hover:after {
+    transform-origin: top;
+    transform: scaleY(1);
+  }
 }
 
 .btnLogin-popup {
