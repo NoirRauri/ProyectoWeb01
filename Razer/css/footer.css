@@ -8,6 +8,10 @@ ul li {
   list-style: none;
 }
 
+ul li a:hover {
+  color: var(--optimus-primary);
+}
+
 .line-divider {
   border-bottom: 0.2rem solid var(--optimus-primary);
   box-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
