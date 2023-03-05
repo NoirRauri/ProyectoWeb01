@@ -245,24 +245,6 @@ a {
   text-decoration: underline;
 }
 
-.btn {
-  width: 100%;
-  height: 45px;
-  background: var(--title-color);
-  border: none;
-  outline: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1em;
-  color: var(--bg-OptimusT);
-  font-weight: 500;
-}
-
-.btn:hover {
-  background: var(--optimus-primary);
-  color: var(--title-color);
-}
-
 .logiRegister {
   font-size: 0.9em;
   color: var(--title-color) !important;
