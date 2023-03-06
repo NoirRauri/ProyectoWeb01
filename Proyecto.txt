@@ -7,18 +7,18 @@ N=none - S=start - M=missing - C=completed
 Main-Index -M-C
 10-PagSec
 	1.pc/muestre principales productos -D-S
-		2.Destok - all in one anclas
+		2.Destok - all in one anclas 
 		Portail - tables PC
 		3.Software
 	4.console/ -M-N
 		(PS, Xbox, Nintendo) :accesorios
-	5.mobile/ -D
+	5.mobile/ -D-S
 		gama alta
 		gama media
 		gama baja
-	6.lifestyle/merch -D
+	6.lifestyle/merch -D-N
 	7.Service -M-N
-	8.Community -D
+	8.Community -D-N
 	9.Support -M-C
 	10.account -M-C
 		form
