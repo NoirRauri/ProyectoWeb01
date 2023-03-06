@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mobile</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="../css/desktop.css" />
-    <link rel="stylesheet" href="../css/mobile.css" />
 
-  </head>
-  <body>
-    <main class="container-fluid">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../css/desktop.css" />
+  <link rel="stylesheet" href="../css/mobile.css" />
 
-       <!-- Titulo Principal -->
-       <section class="row MobileSecOne"> <!--Seccion 1-->
-        <div class="col text-center Mobiletitle pt-4">
-          <h1 class="text-light pt-5 MobiletextTitle ">Mobile</h1>
+</head>
+
+<body>
+  <!-- Start Header -->
+  <header class="shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand d-none d-sm-block lgtxt me-5" href="../index.html"><img src="" alt="" /> OpstimusTec</a>
+        <a class="navbar-brand d-sm-none me-2 lgtxt" href="../index.html"><img src="" alt="" /> OpT</a>
+        <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+          <button class="navbar-toggler me-auto order-lg-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button class="btnLogin-popup">
+            <i class="bi bi-person-circle"></i>
+          </button>
         </div>
       </section> <!-- Titulo Principal -->
 
@@ -100,7 +104,181 @@
           </blockquote>
         </div>
       </div>
+    </nav>
+    <!-- start PopUp -->
+    <div class="wrapper">
+      <span class="iconClose">
+        <i class="bi bi-x-lg"></i>
+      </span>
+      <div class="formBox login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+            <input type="email" required />
+            <label for="">@email</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+            <input type="password" required />
+            <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              Remenber me
+            </label>
+            <a href="#">Forgot Password</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="logiRegister">
+            <p>
+              Don't have an account?
+              <a href="#" class="registerLink">Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+
+      <div class="formBox register">
+        <h2>Resgistration</h2>
+        <form action="#">
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
+            <input type="text" required />
+            <label for="">Full Name</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-person-fill"></i></span>
+            <input type="text" required />
+            <label for="">Username</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-telephone-fill"></i></span>
+            <input type="number" required />
+            <label for="">Phone</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+            <input type="email" required />
+            <label for="">@email</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+            <input type="password" required />
+            <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="" class="text-uppercase">Gender:</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                value="option1" />
+              <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                value="option2" />
+              <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+          </div>
+          <div class="rememberForgot">
+            <label for="">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              I agree to yhe terms & conditions
+            </label>
+          </div>
+          <button type="submit" class="btn text-primary">Resgister</button>
+          <div class="logiRegister">
+            <p>
+              Already have an account
+              <a href="#" class="loginLink">login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end PopUp -->
+  </header>
+  <!-- end Header -->
+
+  <main class="container-fluid">
+
+    <!-- Titulo Principal -->
+    <section class="row MobileSecOne"> <!--Seccion 1-->
+      <div class="col text-center Mobiletitle pt-4">
+        <h1 class="text-light pt-5 MobiletextTitle ">Mobile</h1>
+      </div>
+    </section> <!-- Titulo Principal -->
+
+    <section class="row text-light secTwo"> <!--Seccion 2--> <!--Css desktop-->
+      <div class="col align-content-center intro-main ">
+        <h1 class="d-flex justify-content-center">Optimus's High Range</h1>
+        <span class="intro-main">
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            quaerat sit cumque minima optio, omnis, recusandae repudiandae
+            dignissimos molestiae a necessitatibus veniam quo natus ipsa,
+            deserunt nulla eos laudantium adipisci?
+          </p>
+        </span>
+      </div>
+    </section>
+
+    <section class="row MobileSecThree"> <!--Seccion 3-->
+      <div class="col m-4 bgImg1">
+        <div class="text-center mt-5">
+          <h1>Look Out the newest High Range accesories</h1>
+        </div>
+        <a href="upcoming.html">
+          <button class="button" style="vertical-align:middle"><span>Learn More </span></button>
+        </a>
+      </div>
+    </section>
+
+    <section class="row "> <!--Seccion 4-->
+      <div class=" col-sm-6 text-center Mobileseccion4col1 text-light">
+        <div class=" pt-2 ">
+          <h1>Optimus Combat</h1> <br> QuickStrike One-Handed <br> Gaming Key Pad with Joystick
+        </div>
+        <div class="position-relative top-50"><a href="upcoming.html">Lear More <i
+              class="bi bi-caret-right-fill"></i></a>
+        </div>
+
+      </div>
+      <div class=" col-sm-2 text-center text-light  Mobileseccion4col2 ">
+        <div class=" pt-2 ">
+          <h1>Optimus Sirius</h1> <br> High Performance 7.1 Sterero Sound <br> Headset With Microfone
+        </div>
+        <div class="position-relative top-50"><a href="upcoming.html">Lear More <i
+              class="bi bi-caret-right-fill"></i></a>
+        </div>
+
+      </div>
+
+      <div class=" col-sm-6 text-center Mobileseccion4col3 text-light">
+        <div class=" pt-2 ">
+          <h1>Optimus Ammolite</h1> <br> Game Charged Dual Mode <br> Gaming Mouse
+        </div>
+        <div class="position-relative top-50"><a href="upcoming.html">Lear More <i
+              class="bi bi-caret-right-fill"></i></a>
+        </div>
+    </section>
+
+    <div class="card cardQuote">
       <!-- Primera Qoute -->
+      <div class="card-header">Quote</div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>
+            I do not fear high range OptimusTec's accesories. I fear the lack of them.
+          </p>
+          <footer class="blockquote-footer">
+            <cite title="Source Title">OptimusTec</cite>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+    <!-- Primera Qoute -->
 
      
 
@@ -160,55 +338,173 @@
       </section>
 
 
-      <div class="card cardQuote">
-        <!-- Segunda Qoute -->
-        <div class="card-header">Quote</div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>
-              We are now enteeing in a new world, where thus companies that fit together with the medium range, will lead the market
-            </p>
-            <footer class="blockquote-footer">
-              <cite title="Source Title">OptimusTec</cite>
-            </footer>
-          </blockquote>
+      </div>
+
+      <div class=" col-sm-6 text-center Mobileseccion7col3 text-light">
+        <div class=" pt-1 ">
+          <h1>Optimus Rumba</h1> <br> Immersive Wireless Speakers With "AuraSync" LED Lights
+        </div>
+        <div class="position-relative top-50"><a href="upcoming.html">Lear More <i
+              class="bi bi-caret-right-fill"></i></a>
+        </div>
+    </section>
+
+    <div class="card cardQuote">
+      <!-- Segunda Qoute -->
+      <div class="card-header">Quote</div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>
+            We are now enteeing in a new world, where thus companies that fit together with the medium range, will lead
+            the market
+          </p>
+          <footer class="blockquote-footer">
+            <cite title="Source Title">OptimusTec</cite>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+    <!-- Segunda Qoute -->
+
+
+    <section class="row text-light secTwo mt-5"> <!--Seccion 8--> <!--Css desktop-->
+      <div class="col align-content-center intro-main ">
+        <h1 class="d-flex justify-content-center">Optimus's Low Range</h1>
+        <span class="intro-main">
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            quaerat sit cumque minima optio, omnis, recusandae repudiandae
+            dignissimos molestiae a necessitatibus veniam quo natus ipsa,
+            deserunt nulla eos laudantium adipisci?
+          </p>
+        </span>
+      </div>
+    </section>
+
+    <section class="row Mobileseccion9"> <!--Seccion 9-->
+      <div class="col m-4 bgImg3">
+        <div class="text-center text-light mt-5">
+          <h1> Brand new Optimus cheapest and comfortable Low Range</h1>
+        </div>
+        <a href="upcoming.html">
+          <button class="button" style="vertical-align:middle"><span>Learn More </span></button>
+        </a>
+      </div>
+    </section>
+
+    <section class="row MobileSecciones">
+      <div class="col-lg-6 col col-md-4 col-sm-12 text-center   MobileSeccionX">
+
+      </div>
+      <div class="col-lg-6 col col-md-4 col-sm-12 text-center MobileSeccionX2">
+
+      </div>
+    </section>
+
+    <section>
+      <div class="col text-center"></div>
+    </section>
+
+
+
+    <section id="gamaAlta">
+      <h1>Gama Alta</h1>
+    </section>
+    <section id="gamaMedia">
+      <h1>Gama Media</h1>
+    </section>
+    <section id="gamaBaja">
+      <h1>Gama Baja</h1>
+    </section>
+  </main>
+
+  <!-- start Footer -->
+  <footer class="container-fluid">
+    <div class="row py-2">
+      <div class="col-lg-4 col-md-6 text">
+        <div class="py-2">
+          <span class="h5 text-primary">OptimusTec Comunity</span>
+        </div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li><a href="Lifestyle.html">LifeStyle</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <li><a href="Community.html">Community</a></li>
+            <li><a href="Support.html">Support</a></li>
+          </ul>
         </div>
       </div>
-      <!-- Segunda Qoute -->
-
-      
-      <section class="row text-light secTwo mt-5"> <!--Seccion 8--> <!--Css desktop-->
-        <div class="col align-content-center intro-main ">
-          <h1 class="d-flex justify-content-center">Optimus's Low Range</h1>
-          <span class="intro-main">
-            <p class="text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-              quaerat sit cumque minima optio, omnis, recusandae repudiandae
-              dignissimos molestiae a necessitatibus veniam quo natus ipsa,
-              deserunt nulla eos laudantium adipisci?
-            </p>
-          </span>
+      <div class="col-lg-2 col-md-6 text">
+        <div class="py-2"><span class="h5 text-primary">PC</span></div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li><a href="Desktop.html">Desktop / All in One</a></li>
+            <li><a href="Portatil.html">Portatil / Tablets</a></li>
+            <li><a href="Software.html">Software</a></li>
+          </ul>
         </div>
-      </section>
-
-      <section class="row Mobileseccion9"> <!--Seccion 9-->
-        <div class="col m-4 bgImg3">
-          <div class="text-center text-light mt-5"> <h1> Brand new Optimus cheapest and comfortable Low Range</h1>
-          </div> 
-          <a href="upcoming.html">     
-           <button class="button" style="vertical-align:middle"><span>Learn More </span></button>
-          </a>
+      </div>
+      <div class="col-lg-2 col-md-6 text">
+        <div class="py-2"><span class="h5 text-primary">CONSOLE</span></div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li>
+              <a href="Console.html">PlayStation <br />
+                XBOX <br />
+                Nintendo</a>
+            </li>
+          </ul>
         </div>
       </section>
       <!--Seccion 10-->
       <section class="row justify-content-evenly MobileSecciones">
         <div class="col-lg-6 col col-md-4 col-sm-12 text-center   MobileSeccionX">
 
+      </div>
+      
+      <div class="col-lg-2 col-md-6 text">
+        <div class="py-2"><span class="h5 text-primary">MOBILE</span></div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li>
+              <a href="Mobile.html">SmarkPhone <br />
+                Tablets <br />
+                Other Brands</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-lg-6 col col-md-4 col-sm-12 text-center MobileSeccionX2">
-
+      </div>
+      <div class="col-lg-2 col-md-6 text">
+        <div class="py-2">
+          <span class="h5 text-light lgtxt">REDES</span>
         </div>
-      </section>
+        <div class="d-block">
+          <ul class="list-group">
+            <li class="pb-2">
+              <a href="#"><i class="bi bi-twitter redesIcon"></i> | Twitter</a>
+            </li>
+            <li class="pb-2">
+              <a href="#"><i class="bi bi-facebook redesIcon"></i> | Facebook</a>
+            </li>
+            <li class="pb-2">
+              <a href="#"><i class="bi bi-instagram redesIcon"></i> | Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="line-divider"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center mb-4">
+        <span class="footer text-primary">Copyright © 2023 OptimusTec. All rights reserved</span>
+      </div>
+    </div>
+  </footer>
+  <!-- end Footer -->
 
       
       <section class="row justify-content-evenly MobileSecciones">
@@ -225,17 +521,4 @@
         </div>
       </section>
 
-
-
-      <section id="gamaAlta"><h1>Gama Alta</h1></section>
-      <section id="gamaMedia"><h1>Gama Media</h1></section>
-      <section id="gamaBaja"><h1>Gama Baja</h1></section>
-    </main>
-    <script src="../JS/account.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
