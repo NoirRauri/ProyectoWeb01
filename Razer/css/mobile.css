@@ -41,9 +41,11 @@ html {
     background-image: url(../img/Mobile/bg-section3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 15px;
  }
+ 
 
- .button {
+ button.button1 {
     display: inline-block;
     border-radius: 4px;
     background-color: #f4511e;
@@ -58,17 +60,18 @@ html {
     margin: 5px;
     position: relative;
     left: 530px;
-    top:450px;
+    top:500px;
+    cursor: pointer;
   }
   
-  .button span {
+  .button1 span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  .button span:after {
+  .button1 span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -77,11 +80,11 @@ html {
     transition: 0.5s;
   }
   
-  .button:hover span {
+  .button1:hover span {
     padding-right: 25px;
   }
   
-  .button:hover span:after {
+  .button1:hover span:after {
     opacity: 1;
     right: 0;
   }
@@ -158,6 +161,53 @@ section.Mobilseccion6{
     background-size: cover;
  }
 
+
+ /*btn seccion 6*/
+ button.button2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: solid ;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor:move;
+  margin: 5px;
+  position: relative;
+  left: 530px;
+  top:350px;
+  cursor: pointer;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
  /*Seccion 7*/
  .MobileSeccion7col1{
   font-size: larger;
@@ -217,82 +267,153 @@ section.Mobileseccion9{
   
     height: 700px;
     max-width: 100%;
+    
  } 
  div.bgImg3{
     background-image: url(../img/Mobile/bg-section9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
  }
+ div.bgImg3 img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 
- .button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: solid ;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 20px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor:move;
-    margin: 5px;
-    position: relative;
-    left: 530px;
-    top:450px;
-  }
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+ /*btn seccion 9*/
+ button.button3 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: solid ;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor:move;
+  margin: 5px;
+  position: relative;
+  left: 530px;
+  top:400px;
+  cursor: pointer;
+}
 
-  /*Prueba*/
-  .MobileSeccionX{
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button3:hover span {
+  padding-right: 25px;
+}
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+  /*Seccion 10*/
+  .MobileSeccion10col1{
+    font-size: larger;
     display: inline-block;
-    height: 500px;
-    width: 500px;
-    background-image: url(../img/Mobile/bg-product1section7.jpg);
+    height: 600px;
+    width: 600px;
+    background-image: url(../img/Mobile/bg-product2section10.jpg);
     
     margin-top: 50px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 40%;
+    background-position: 80%;
     
   }
-  .MobileSeccionX2{
-    
+
+  .MobileSeccion10col2{
+    font-size: larger;
     display: inline-block;
-    height: 500px;
-    width: 500px;
-    background-image: url(../img/Mobile/bg-product3section7.jpg);
+    height: 600px;
+    width: 600px;
+    background-image: url(../img/Mobile/bg-product1section10.jpg);
+    
     margin-top: 50px;
-    margin-left: 0px;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-position: 80%;
+    
   }
-  
-  
 
-  
+  /*ultima bg image*/
+  .lastsec{
+    color: whitesmoke;
+    font-size: larger;
+    background-image: url(../img/Mobile/bg-lastsec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+  .lastsecDiv{
+    height: 200px;
+    width: 1000px;
+    margin-left: 300px;
+    
+  }
+
+   /*btn seccion last*/
+ button.button4 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: solid ;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor:move;
+  margin: 5px;
+  position: relative;
+  left: 560px;
+  top:400px;
+  cursor: pointer;
+}
+
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button4 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button4:hover span {
+  padding-right: 25px;
+}
+
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
