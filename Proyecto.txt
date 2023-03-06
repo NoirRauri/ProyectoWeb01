@@ -9,6 +9,7 @@ Main-Index -M-E
 	pc/muestre principales productos -D
 		Destok - all in one anclas
 		Portail - tables PC
+		Software
 	console/ -M-N
 		PS/Xbox
 		Nintendo

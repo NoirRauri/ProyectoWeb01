@@ -10,14 +10,12 @@ html {
   scroll-behavior: smooth;
 }
 /*---Main---*/
-/* .row {
-  height: 700px;
-} */
+
 .secOne {
   height: 700px;
 }
 div.title {
-  background-image: url(../img/Desktop-img/bg-deskAll.jpg);
+  background-image: url(../img/Desktop/bg-deskAll.jpg);
   background-size: 100%;
   background-size: cover;
   background-position: center;
@@ -40,7 +38,7 @@ div.transitionDesktop {
   transition-property: height ease;
 }
 div.transitionDesktop:hover {
-  background-image: url(../img/Desktop-img/bg-transition1.jpg);
+  background-image: url(../img/Desktop/desktop-bg-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -70,7 +68,7 @@ div.transitionAllInOne {
   transition-property: height ease;
 }
 div.transitionAllInOne:hover {
-  background-image: url(../img/Desktop-img/bg-transition2.jpg);
+  background-image: url(../img/Desktop/bg-transition2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -119,7 +117,7 @@ section.rowOptimus {
   font-size: 50px;
 }
 div.bgOptimus {
-  background-image: url(../img/Desktop-img/bg-optimus6.jpg);
+  background-image: url(../img/Desktop/bg-optimus6.jpg);
   background-size: cover;
   height: 600px;
 }
