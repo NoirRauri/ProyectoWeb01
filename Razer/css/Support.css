@@ -36,13 +36,13 @@ main.container-fluid {
 .sec02,
 .sec04 {
   /* background: var(--bg-table-color); */
-  background-color: #111111;
+  background-color: var(--bg-table-color);
 }
 
 .sec03,
 .sec05 {
   /* background: var(--text-color); */
-  background-color: #161616;
+  background-color: var(--bg-card-color);
 }
 
 .sec03 {
@@ -67,7 +67,7 @@ main.container-fluid {
 
 table.table {
   border: 1px solid var(--text-color);
-  background: #111111;
+  background: var(--bg-table-color);
   color: var(--title-color);
 }
 
@@ -96,12 +96,12 @@ table.table {
 }
 
 .accordion-collapse {
-  background: #111111;
+  background: var(--bg-table-color);
   color: var(--title-color);
 }
 
 .card {
-  background: #161616;
+  background: var(--bg-card-color);
 }
 
 @media (max-width: 960px) {
