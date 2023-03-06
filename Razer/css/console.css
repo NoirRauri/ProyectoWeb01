@@ -50,13 +50,27 @@ section {
 }
 
 .secPSB-02 div,
-.secPSB-04 div {
+.secPSB-04 div,
+.secPSB-06 div,
+.secPSB-07 div,
+.secPSB-09 div,
+.secPSB-10 div,
+.secPSB-11 div,
+.secPSB-12 div,
+.secPSB-14 div {
   margin-top: 5%;
 }
 
 .secPSB-01 div h1,
 .secPSB-02 div h1,
-.secPSB-04 div h1 {
+.secPSB-04 div h1,
+.secPSB-06 div h1,
+.secPSB-07 div h1,
+.secPSB-09 div h1,
+.secPSB-10 div h1,
+.secPSB-11 div h1,
+.secPSB-12 div h1,
+.secPSB-14 div h1 {
   font-size: 60px;
 }
 
@@ -88,7 +102,15 @@ section {
 .secPSB-03 .bgHH1 a:hover,
 .secPSB-03 .bgHH2 a:hover,
 .secPSB-02 div a:hover,
-.secPSB-04 div a:hover {
+.secPSB-04 div a:hover,
+.secPSB-05 div a:hover,
+.secPSB-06 div a:hover,
+.secPSB-07 div a:hover,
+.secPSB-09 div a:hover,
+.secPSB-10 div a:hover,
+.secPSB-11 div a:hover,
+.secPSB-12 div a:hover,
+.secPSB-14 div a:hover {
   color: var(--optimus-primary);
   font-size: 18px;
   text-shadow: 0rem 0rem 0.4rem var(--bg-OptimusT);
