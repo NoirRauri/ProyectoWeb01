@@ -17,20 +17,221 @@
     <link rel="stylesheet" href="../css/console.css" />
   </head>
   <body>
+    <!-- Start Header -->
+    <header class="shadow">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-none d-sm-block lgtxt me-5"
+            href="../index.html"
+            ><img src="" alt="" /> OpstimusTec</a
+          >
+          <a class="navbar-brand d-sm-none me-2 lgtxt" href="../index.html"
+            ><img src="" alt="" /> OpT</a
+          >
+          <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+            <button
+              class="navbar-toggler me-auto order-lg-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <button class="btnLogin-popup">
+              <i class="bi bi-person-circle"></i>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown me-5 lowbar">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PC
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="Desktop.html">Desktop</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Portatil.html">Portatil</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-5 lowbar">
+                <a class="nav-link" href="Console.html"> CONSOLE </a>
+              </li>
+              <li class="nav-item dropdown me-5 lowbar">
+                <a class="nav-link" href="Mobile.html"> MOBILE </a>
+              </li>
+              <li class="nav-item dropdown me-5 lowbar">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  COMUNITY
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="lowbar">
+                    <a class="dropdown-item" href="Lifestyle.html">LifeStyle</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Service.html">Service</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Community.html">Community</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Support.html">Support</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btnLogin-popup" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- start PopUp -->
+      <div class="wrapper">
+        <span class="iconClose">
+          <i class="bi bi-x-lg"></i>
+        </span>
+        <div class="formBox login">
+          <h2>Login</h2>
+          <form action="#">
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+              <input type="email" required />
+              <label for="">@email</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+              <input type="password" required />
+              <label for="">password</label>
+            </div>
+            <div class="rememberForgot">
+              <label for="">
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                Remenber me
+              </label>
+              <a href="#">Forgot Password</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="logiRegister">
+              <p>
+                Don't have an account?
+                <a href="#" class="registerLink">Register</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="formBox register">
+          <h2>Resgistration</h2>
+          <form action="#">
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
+              <input type="text" required />
+              <label for="">Full Name</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-person-fill"></i></span>
+              <input type="text" required />
+              <label for="">Username</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-telephone-fill"></i></span>
+              <input type="number" required />
+              <label for="">Phone</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+              <input type="email" required />
+              <label for="">@email</label>
+            </div>
+            <div class="inputB">
+              <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+              <input type="password" required />
+              <label for="">password</label>
+            </div>
+            <div class="rememberForgot">
+              <label for="" class="text-uppercase">Gender:</label>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineRadio2"
+                  >Female</label
+                >
+              </div>
+            </div>
+            <div class="rememberForgot">
+              <label for="">
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                I agree to yhe terms & conditions
+              </label>
+            </div>
+            <button type="submit" class="btn">Resgister</button>
+            <div class="logiRegister">
+              <p>
+                Already have an account
+                <a href="#" class="loginLink">login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- end PopUp -->
+    </header>
+    <!-- end Header -->
+
     <main class="container-fluid">
       <!-- Start section  -->
 
       <!-- seccion Console -->
       <section class="row justify-content-center secPSB-01">
-        <div class="col d-grid">
-          <p></p>
-          <span class="h1 text-primary shadow">CONSOLE GAME</span>
+        <div class="col-6 align-self-center">
+          <h1 class="text-primary fw-light">CONSOLE GAME</h1>
           <span>
             Whether you own a PlayStation 5, Xbox Series X|S, or Nintendo
             Switch, enjoy complete console supremacy on any platform with our
             high-performance headsets, controllers, and accessories.
           </span>
-          <p></p>
         </div>
       </section>
 
@@ -65,34 +266,72 @@
         </div>
       </section>
 
+      <!-- seccion limited edicion -->
       <section class="row secPSB-04">
-        <div class="col"></div>
+        <div class="col">
+          <h1 class="text-primary fw-light">OPTIMUS-TEC LIMITED EDITION</h1>
+          <h5 class="fw-light">
+            Officially Licensed Xbox Controller and Quick Charging Stand
+          </h5>
+          <a href="upcoming.html"
+            >Learn More <i class="bi bi-caret-right-fill text-primary"></i
+          ></a>
+        </div>
       </section>
-      <section class="row secPSB-05">
-        <div class="col"></div>
+
+      <!-- seccion march for victory -->
+      <section class="row justify-content-end secPSB-05">
+        <div class="col-5 align-self-center me-5">
+          <h1>MARCH FOR VICTORY</h1>
+          <p>JOIN OUR CAUSE TODAY</p>
+          <a href="upcoming.html"
+            >Learn More <i class="bi bi-caret-right-fill text-primary"></i
+          ></a>
+        </div>
       </section>
+
+      <!--  -->
       <section class="row secPSB-06">
         <div class="col"></div>
       </section>
+
+      <!--  -->
       <section class="row secPSB-07">
         <div class="col"></div>
       </section>
+
+      <!--  -->
       <section class="row secPSB-08">
         <div class="col"></div>
       </section>
+
+      <!--  -->
       <section class="row secPSB-09">
         <div class="col"></div>
       </section>
+
+      <!--  -->
       <section class="row secPSB-10">
         <div class="col"></div>
       </section>
+
+      <!--  -->
       <section class="row secPSB-11">
         <div class="col"></div>
       </section>
+
+      <!--  -->
       <section class="row secPSB-12">
         <div class="col"></div>
       </section>
+
+      <!--  -->
       <section class="row secPSB-13">
+        <div class="col"></div>
+      </section>
+
+      <!--  -->
+      <section class="row secPSB-14">
         <div class="col"></div>
       </section>
     </main>
