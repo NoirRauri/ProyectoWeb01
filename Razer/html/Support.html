@@ -1,578 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="opinionsport" content="width=device-width, initial-scale=1" />
-    <title>Support</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="../css/support.css" />
-  </head>
 
-  <body>
-    <!-- Start Header -->
-    <header class="shadow">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a
-            class="navbar-brand d-none d-sm-block lgtxt me-5"
-            href="../index.html"
-            ><img src="" alt="" /> OpstimusTec</a
-          >
-          <a class="navbar-brand d-sm-none me-2 lgtxt" href="../index.html"
-            ><img src="" alt="" /> OpT</a
-          >
-          <div class="navbar-toolbar d-flex align-items-center order-lg-3">
-            <button
-              class="navbar-toggler me-auto order-lg-2"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <button class="btnLogin-popup">
-              <i class="bi bi-person-circle"></i>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown me-5 lowbar">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  PC
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="Desktop.html"
-                      >Desktop/Allo on One</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Portatil.html"
-                      >Portatil/TabletsPC</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Software.html">Software</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown me-5 lowbar">
-                <a class="nav-link" href="Console.html"> CONSOLE </a>
-              </li>
-              <li class="nav-item dropdown me-5 lowbar">
-                <a class="nav-link" href="Mobile.html"> MOBILE </a>
-              </li>
-              <li class="nav-item dropdown me-5 lowbar">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  COMUNITY
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="lowbar">
-                    <a class="dropdown-item" href="Lifestyle.html">LifeStyle</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Service.html">Service</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Community.html">Community</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Support.html">Support</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btnLogin-popup" type="submit">
-                <i class="bi bi-search"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <!-- start PopUp -->
-      <div class="wrapper">
-        <span class="iconClose">
-          <i class="bi bi-x-lg"></i>
-        </span>
-        <div class="formBox login">
-          <h2>Login</h2>
-          <form action="#">
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
-              <input type="email" required />
-              <label for="">@email</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
-              <input type="password" required />
-              <label for="">password</label>
-            </div>
-            <div class="rememberForgot">
-              <label for="">
-                <input type="checkbox" name="checkbox" id="checkbox" />
-                Remenber me
-              </label>
-              <a href="#">Forgot Password</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <div class="logiRegister">
-              <p>
-                Don't have an account?
-                <a href="#" class="registerLink">Register</a>
-              </p>
-            </div>
-          </form>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="opinionsport" content="width=device-width, initial-scale=1" />
+  <title>Support</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../css/support.css" />
+</head>
 
-        <div class="formBox register">
-          <h2>Resgistration</h2>
-          <form action="#">
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
-              <input type="text" required />
-              <label for="">Full Name</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-person-fill"></i></span>
-              <input type="text" required />
-              <label for="">Username</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-telephone-fill"></i></span>
-              <input type="number" required />
-              <label for="">Phone</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
-              <input type="email" required />
-              <label for="">@email</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
-              <input type="password" required />
-              <label for="">password</label>
-            </div>
-            <div class="rememberForgot">
-              <label for="" class="text-uppercase">Gender:</label>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio1"
-                  value="option1"
-                />
-                <label class="form-check-label" for="inlineRadio1">Male</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio2"
-                  value="option2"
-                />
-                <label class="form-check-label" for="inlineRadio2"
-                  >Female</label
-                >
-              </div>
-            </div>
-            <div class="rememberForgot">
-              <label for="">
-                <input type="checkbox" name="checkbox" id="checkbox" />
-                I agree to yhe terms & conditions
-              </label>
-            </div>
-            <button type="submit" class="btn text-primary">Resgister</button>
-            <div class="logiRegister">
-              <p>
-                Already have an account
-                <a href="#" class="loginLink">login</a>
-              </p>
-            </div>
+<body>
+  <!-- Start Header -->
+  <header class="shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand d-none d-sm-block lgtxt me-5" href="../index.html"><img src="" alt="" /> OpstimusTec</a>
+        <a class="navbar-brand d-sm-none me-2 lgtxt" href="../index.html"><img src="" alt="" /> OpT</a>
+        <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+          <button class="navbar-toggler me-auto order-lg-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button class="btnLogin-popup">
+            <i class="bi bi-person-circle"></i>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown me-5 lowbar">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PC
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Desktop.html">Desktop/Allo on One</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Portatil.html">Portatil/TabletsPC</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Software.html">Software</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-5 lowbar">
+              <a class="nav-link" href="Console.html"> CONSOLE </a>
+            </li>
+            <li class="nav-item dropdown me-5 lowbar">
+              <a class="nav-link" href="Mobile.html"> MOBILE </a>
+            </li>
+            <li class="nav-item dropdown me-5 lowbar">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                COMUNITY
+              </a>
+              <ul class="dropdown-menu">
+                <li class="lowbar">
+                  <a class="dropdown-item" href="Lifestyle.html">LifeStyle</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Service.html">Service</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Community.html">Community</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Support.html">Support</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btnLogin-popup" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
           </form>
         </div>
       </div>
-      <!-- end PopUp -->
-    </header>
-    <!-- end Header -->
-
-    <main class="container-fluid">
-      <!-- seccion01 -->
-      <section class="sec01 row text-light">
-        <div class="comunity">
-          <section class="col text-center">
-            <span class="h1 text-light">Welcome to Optimus-Tec Support</span>
-            <br /><span class="h4 fw-light py-4">We’re here to help</span>
-            <form class="d-flex py-4" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btnLogin-popup" type="submit">
-                <i class="bi bi-search"></i>
-              </button>
-            </form>
-          </section>
-        </div>
-      </section>
-
-      <!-- seccion02 table -->
-      <section class="row sec02 text-center">
-        <div class="coverage">
-          <div>
-            <span class="h1 text-primary"
-              >OptimusTec-Care Coverage Options</span
-            >
-            <p class="fw-light text-light">
-              Both RazerCare protection plans extend your coverage upon
-              expiration of the Razer Limited Warranty.
+    </nav>
+    <!-- start PopUp -->
+    <div class="wrapper">
+      <span class="iconClose">
+        <i class="bi bi-x-lg"></i>
+      </span>
+      <div class="formBox login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+            <input type="email" required />
+            <label for="">@email</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+            <input type="password" required />
+            <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              Remenber me
+            </label>
+            <a href="#">Forgot Password</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="logiRegister">
+            <p>
+              Don't have an account?
+              <a href="#" class="registerLink">Register</a>
             </p>
           </div>
-          <table class="table table-hover">
-            <thead>
-              <tr class="text-primary">
-                <th scope="col"></th>
-                <th scope="col">Essential</th>
-                <th scope="col">Elite</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Automatic registration</th>
-                <td>✓</td>
-                <td>✓</td>
-              </tr>
-              <tr>
-                <th scope="row">24-hour RazerCare claim support</th>
-                <td>✓</td>
-                <td>✓</td>
-              </tr>
-              <tr>
-                <th scope="row">Mechanical and electrical failures</th>
-                <td>✓</td>
-                <td>✓</td>
-              </tr>
-              <tr>
-                <th scope="row">Surge protection (from day 1)</th>
-                <td>✓</td>
-                <td>✓</td>
-              </tr>
-              <tr>
-                <th scope="row">Accidental damage coverage (from day 1)</th>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <th scope="row">Accidental damage coverage (from day 1)</th>
-                <td>-</td>
-                <td>✓</td>
-              </tr>
-              <tr>
-                <th scope="row">Spills</th>
-                <td>-</td>
-                <td>✓</td>
-              </tr>
-              <tr>
-                <th scope="row">Falls</th>
-                <td>-</td>
-                <td>✓</td>
-              </tr>
-              <tr>
-                <th scope="row">Collisions</th>
-                <td>-</td>
-                <td>✓</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+        </form>
+      </div>
 
-      <!-- seccion03 ask Community or assistens -->
-      <section class="sec03 text-light">
-        <div class="comunity">
-          <section class="row">
-            <div class="col-lg-6 col-md-12 mb-3 mb-md-0">
-              <div class="card text-center align-content-between">
-                <div class="card-body">
-                  <h5 class="card-title">OPTIMUS-TEC INSIDER</h5>
-                  <p class="card-text">
-                    Have a question? Ask the Razer Community for help!
-                  </p>
-                  <a href="upcoming.html" class="btn btn-primary"
-                    >Enter Insider</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">NEED HELP?</h5>
-                  <p class="card-text">Get support by phone, chat, or email</p>
-                  <a href="upcoming.html" class="btn btn-primary"
-                    >Contact Support</a
-                  >
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-
-      <!-- seccion04 preguntas frecuentes -->
-      <section class="row sec04">
-        <div class="ask">
-          <div class="text-center mb-3">
-            <span class="h1 text-light">High frequency FAQ</span>
+      <div class="formBox register">
+        <h2>Resgistration</h2>
+        <form action="#">
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
+            <input type="text" required />
+            <label for="">Full Name</label>
           </div>
-          <div class="accordion accordion-flush" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button
-                  class="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  What is a phone baseband? How to solve the baseband loss?
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  <h6>What is a mobile phone baseband?</h6>
-                  <p>
-                    Baseband is the inherent frequency band (frequency
-                    bandwidth) of the original electrical signal without
-                    modulation and transformation sent by the Baseband signal
-                    source (also called the transmitter). The "baseband" of a
-                    mobile phone has two meanings: one refers to the hardware,
-                    the communication module (modem) of the mobile phone and
-                    other equipment; the other refers to the software, which
-                    supports the control software (firmware) required by the
-                    communication module of the mobile phone and other equipment
-                    to complete signal processing. The query path of the
-                    baseband version information in the MIUI system:
-                    <code
-                      >Settings---About Device---All specs---Baseband
-                      Version.</code
-                    >The baseband version information is updated with the update
-                    of the MIUI version, and there may be cases where the MIUI
-                    system version is updated but the baseband version is not.
-                  </p>
-                  <h6>
-                    How to deal with the loss of baseband information on the
-                    mobile phone?
-                  </h6>
-                  <p>
-                    After the baseband information is lost, the SIM card will
-                    not be recognized. You can go to
-                    <code
-                      >Settings---About Device---All specs---Baseband
-                      Version</code
-                    >
-                    to check the baseband version. If the baseband version is
-                    displayed as "unknown" or "baseband information is lost",
-                    which may means that the baseband firmware is abnormal, you
-                    can try to update MIUI to the latest version to fix it; if
-                    it is still not resolved, apply for after-sales service.
-                  </p>
-                  <h6>Why does the baseband version change?</h6>
-                  <p>
-                    Baseband (software) refers to the control software
-                    (firmware) required to support the communication module of
-                    mobile phones and other devices to complete signal
-                    processing. This part of the firmware is stored in the
-                    mobile phone system software package (ROM package) and needs
-                    to be updated with the MIUI version to upgrade, but The
-                    baseband version exists independently, and there may be
-                    cases where the system version is upgraded but the baseband
-                    version is not upgraded.
-                  </p>
-                  <h6>Notes:</h6>
-                  <p>
-                    The baseband chip design at the hardware level relies on the
-                    CPU platform. Some CPU platforms will integrate the baseband
-                    chip, and some baseband processors will exist independently.
-                    The baseband control software (firmware) at the software
-                    level is stored in the mobile phone system software package
-                    (ROM package), and the MIUI version needs to be updated to
-                    upgrade, but the baseband version exists independently, and
-                    there are cases where the system version is upgraded but the
-                    baseband version is not upgraded.
-                  </p>
-                  <div class="text-center">
-                    <h6>Does it help?</h6>
-                    <div class="align-content-around">
-                      <input
-                        class="btn btn-primary"
-                        type="button"
-                        value="YES"
-                      />
-                      <input
-                        class="btn btn-primary"
-                        type="button"
-                        value="NOT"
-                      />
-                    </div>
-                  </div>
-                </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-person-fill"></i></span>
+            <input type="text" required />
+            <label for="">Username</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-telephone-fill"></i></span>
+            <input type="number" required />
+            <label for="">Phone</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+            <input type="email" required />
+            <label for="">@email</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+            <input type="password" required />
+            <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="" class="text-uppercase">Gender:</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                value="option1" />
+              <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                value="option2" />
+              <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+          </div>
+          <div class="rememberForgot">
+            <label for="">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              I agree to yhe terms & conditions
+            </label>
+          </div>
+          <button type="submit" class="btn text-primary">Resgister</button>
+          <div class="logiRegister">
+            <p>
+              Already have an account
+              <a href="#" class="loginLink">login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end PopUp -->
+  </header>
+  <!-- end Header -->
+
+  <main class="container-fluid">
+    <!-- seccion01 -->
+    <section class="sec01 row text-light">
+      <div class="comunity">
+        <section class="col text-center">
+          <span class="h1 text-light">Welcome to Optimus-Tec Support</span>
+          <br /><span class="h4 fw-light py-4">We’re here to help</span>
+          <form class="d-flex py-4" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btnLogin-popup" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <!-- seccion02 table -->
+    <section class="row sec02 text-center">
+      <div class="coverage">
+        <div>
+          <span class="h1 text-primary">OptimusTec-Care Coverage Options</span>
+          <p class="fw-light text-light">
+            Both RazerCare protection plans extend your coverage upon
+            expiration of the Razer Limited Warranty.
+          </p>
+        </div>
+        <table class="table table-hover">
+          <thead>
+            <tr class="text-primary">
+              <th scope="col"></th>
+              <th scope="col">Essential</th>
+              <th scope="col">Elite</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Automatic registration</th>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th scope="row">24-hour RazerCare claim support</th>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th scope="row">Mechanical and electrical failures</th>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th scope="row">Surge protection (from day 1)</th>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th scope="row">Accidental damage coverage (from day 1)</th>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Accidental damage coverage (from day 1)</th>
+              <td>-</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th scope="row">Spills</th>
+              <td>-</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th scope="row">Falls</th>
+              <td>-</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th scope="row">Collisions</th>
+              <td>-</td>
+              <td>✓</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- seccion03 ask Community or assistens -->
+    <section class="sec03 text-light">
+      <div class="comunity">
+        <section class="row">
+          <div class="col-lg-6 col-md-12 mb-3 mb-md-0">
+            <div class="card text-center align-content-between">
+              <div class="card-body">
+                <h5 class="card-title">OPTIMUS-TEC INSIDER</h5>
+                <p class="card-text">
+                  Have a question? Ask the Razer Community for help!
+                </p>
+                <a href="upcoming.html" class="btn btn-primary">Enter Insider</a>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  What if failed to restore the backup on my phone?
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  If you use the backup software on the Xiaomi phone to perform
-                  backup, you failed to see the previous backup when restoring
-                  the backup, but there is a corresponding folder in the
-                  corresponding directory of the virtual SD card, which may be
-                  caused by the following reasons:
-                  <ul>
-                    <li>
-                      1. The backup software will be improved with the system
-                      upgrade. If downgrades the phone system or the system
-                      version span is too large, the backup may not be able to
-                      restore.
-                    </li>
-                    <li>
-                      2. During the backup process or after the backup is
-                      completed, if an error occurs in a file in the backup, the
-                      backed-up file may not be detected.
-                    </li>
-                  </ul>
-                  <div>
-                    <strong>Troubleshooting steps:</strong>
-                    <ul>
-                      <li>
-                        1. If the system version span is too large and cannot be
-                        restored, it is recommended to contact the after-sales
-                        service.
-                      </li>
-                      <li>
-                        2. If the backup cannot be restored due to an error in a
-                        certain file during or after the backup, perform the
-                        following operations:
-                      </li>
-                    </ul>
-                  </div>
-                  First, we call the original user backup as A backup, and
-                  create a new backup as B backup. Enter the MIUIBackupAllbackup
-                  directory of file management, and there will be folders for A
-                  backup and B backup. Enter the backup folder of A, and put the
-                  bak-format files that need to be restored to the folder
-                  corresponding to backup B. Then put the description.xml file
-                  in backup A in the corresponding folder of backup B. After the
-                  operation is complete, restart the phone and try to restore
-                  backup B to restore the contents of backup A.
-                  <div>
-                    <strong>Notes:</strong>
-                  </div>
-                  If the backup is encrypted, this method cannot solve the
-                  problem.
-                  <div class="text-center">
-                    <h6>Does it help?</h6>
-                    <div class="align-content-around">
-                      <input
-                        class="btn btn-primary"
-                        type="button"
-                        value="YES"
-                      />
-                      <input
-                        class="btn btn-primary"
-                        type="button"
-                        value="NOT"
-                      />
-                    </div>
-                  </div>
-                </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">NEED HELP?</h5>
+                <p class="card-text">Get support by phone, chat, or email</p>
+                <a href="upcoming.html" class="btn btn-primary">Contact Support</a>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  How to disable phone proximity sensor?
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  <strong>How to disable phone proximity sensor?</strong><br />
-                  You can disable the proximity sensor as the following path:
-                  <code
-                    >Settings>> Apps>> System app settings>> Call settings>>
-                    Incoming call Settings>> Proximity sensor</code
-                  >
-                </div>
-                <div class="text-center m-2">
-                  <strong>Does it help?</strong>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- seccion04 preguntas frecuentes -->
+    <section class="row sec04">
+      <div class="ask">
+        <div class="text-center mb-3">
+          <span class="h1 text-light">High frequency FAQ</span>
+        </div>
+        <div class="accordion accordion-flush" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                What is a phone baseband? How to solve the baseband loss?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h6>What is a mobile phone baseband?</h6>
+                <p>
+                  Baseband is the inherent frequency band (frequency
+                  bandwidth) of the original electrical signal without
+                  modulation and transformation sent by the Baseband signal
+                  source (also called the transmitter). The "baseband" of a
+                  mobile phone has two meanings: one refers to the hardware,
+                  the communication module (modem) of the mobile phone and
+                  other equipment; the other refers to the software, which
+                  supports the control software (firmware) required by the
+                  communication module of the mobile phone and other equipment
+                  to complete signal processing. The query path of the
+                  baseband version information in the MIUI system:
+                  <code>Settings---About Device---All specs---Baseband
+                      Version.</code>The baseband version information is updated with the update
+                  of the MIUI version, and there may be cases where the MIUI
+                  system version is updated but the baseband version is not.
+                </p>
+                <h6>
+                  How to deal with the loss of baseband information on the
+                  mobile phone?
+                </h6>
+                <p>
+                  After the baseband information is lost, the SIM card will
+                  not be recognized. You can go to
+                  <code>Settings---About Device---All specs---Baseband
+                      Version</code>
+                  to check the baseband version. If the baseband version is
+                  displayed as "unknown" or "baseband information is lost",
+                  which may means that the baseband firmware is abnormal, you
+                  can try to update MIUI to the latest version to fix it; if
+                  it is still not resolved, apply for after-sales service.
+                </p>
+                <h6>Why does the baseband version change?</h6>
+                <p>
+                  Baseband (software) refers to the control software
+                  (firmware) required to support the communication module of
+                  mobile phones and other devices to complete signal
+                  processing. This part of the firmware is stored in the
+                  mobile phone system software package (ROM package) and needs
+                  to be updated with the MIUI version to upgrade, but The
+                  baseband version exists independently, and there may be
+                  cases where the system version is upgraded but the baseband
+                  version is not upgraded.
+                </p>
+                <h6>Notes:</h6>
+                <p>
+                  The baseband chip design at the hardware level relies on the
+                  CPU platform. Some CPU platforms will integrate the baseband
+                  chip, and some baseband processors will exist independently.
+                  The baseband control software (firmware) at the software
+                  level is stored in the mobile phone system software package
+                  (ROM package), and the MIUI version needs to be updated to
+                  upgrade, but the baseband version exists independently, and
+                  there are cases where the system version is upgraded but the
+                  baseband version is not upgraded.
+                </p>
+                <div class="text-center">
+                  <h6>Does it help?</h6>
                   <div class="align-content-around">
                     <input class="btn btn-primary" type="button" value="YES" />
                     <input class="btn btn-primary" type="button" value="NOT" />
@@ -581,230 +377,279 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- secction05 carrucel for opinions -->
-      <section class="row sec05">
-        <div>
-          <div class="text-center text-light p-2">
-            <h1>What Our Customers Are Saying</h1>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What if failed to restore the backup on my phone?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                If you use the backup software on the Xiaomi phone to perform
+                backup, you failed to see the previous backup when restoring
+                the backup, but there is a corresponding folder in the
+                corresponding directory of the virtual SD card, which may be
+                caused by the following reasons:
+                <ul>
+                  <li>
+                    1. The backup software will be improved with the system
+                    upgrade. If downgrades the phone system or the system
+                    version span is too large, the backup may not be able to
+                    restore.
+                  </li>
+                  <li>
+                    2. During the backup process or after the backup is
+                    completed, if an error occurs in a file in the backup, the
+                    backed-up file may not be detected.
+                  </li>
+                </ul>
+                <div>
+                  <strong>Troubleshooting steps:</strong>
+                  <ul>
+                    <li>
+                      1. If the system version span is too large and cannot be
+                      restored, it is recommended to contact the after-sales
+                      service.
+                    </li>
+                    <li>
+                      2. If the backup cannot be restored due to an error in a
+                      certain file during or after the backup, perform the
+                      following operations:
+                    </li>
+                  </ul>
+                </div>
+                First, we call the original user backup as A backup, and
+                create a new backup as B backup. Enter the MIUIBackupAllbackup
+                directory of file management, and there will be folders for A
+                backup and B backup. Enter the backup folder of A, and put the
+                bak-format files that need to be restored to the folder
+                corresponding to backup B. Then put the description.xml file
+                in backup A in the corresponding folder of backup B. After the
+                operation is complete, restart the phone and try to restore
+                backup B to restore the contents of backup A.
+                <div>
+                  <strong>Notes:</strong>
+                </div>
+                If the backup is encrypted, this method cannot solve the
+                problem.
+                <div class="text-center">
+                  <h6>Does it help?</h6>
+                  <div class="align-content-around">
+                    <input class="btn btn-primary" type="button" value="YES" />
+                    <input class="btn btn-primary" type="button" value="NOT" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div>
-            <div id="carouselCaptions" class="carousel slide">
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselCaptions"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselCaptions"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselCaptions"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How to disable phone proximity sensor?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>How to disable phone proximity sensor?</strong><br />
+                You can disable the proximity sensor as the following path:
+                <code>Settings>> Apps>> System app settings>> Call settings>>
+                    Incoming call Settings>> Proximity sensor</code>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="opinions">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <p>
-                      This was some of the best customer service I have ever
-                      experienced. Response times were incredibly fast and I
-                      feel well taken care of.
-                    </p>
-                  </div>
-                  <div class="imdBg"></div>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5 class="perName">Josh C.</h5>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="opinions">
-                    <i class="bi bi-star-fill fw-bold"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <p>
-                      Kimberly provided OUTSTANDING support. I could not ask for
-                      more. I worked in support for a vendor. Her
-                      professionalism and product knowledge is excellent. Due to
-                      her handling of this problem, I will put Razer products a
-                      the top of my list when considering updating or adding to
-                      my hardware. Thank you for maintaining this level of
-                      support.
-                    </p>
-                  </div>
-                  <div class="imdBg"></div>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Dan A.</h5>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="opinions">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <p>
-                      I spent hours fixing the problem i was having with synapse
-                      3. Reddit didnt help sadly. The online support chat was
-                      sooooo good it literally made my day. Foxed my issue in no
-                      time. 5 stars ⭐️⭐️⭐️⭐️⭐️ best support out there.
-                      Thank you Jane!!
-                    </p>
-                  </div>
-                  <div class="imdBg"></div>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Jasraj S.</h5>
-                  </div>
+              <div class="text-center m-2">
+                <strong>Does it help?</strong>
+                <div class="align-content-around">
+                  <input class="btn btn-primary" type="button" value="YES" />
+                  <input class="btn btn-primary" type="button" value="NOT" />
                 </div>
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselCaptions"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselCaptions"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <!-- start Footer -->
-    <footer class="container-fluid">
-      <div class="row py-2">
-        <div class="col-lg-4 col-md-6 text">
-          <div class="py-2">
-            <span class="h5 text-primary">OptimusTec Comunity</span>
-          </div>
-          <div class="d-block">
-            <ul class="list-group">
-              <li><a href="Lifestyle.html">LifeStyle</a></li>
-              <li><a href="Service.html">Service</a></li>
-              <li><a href="Community.html">Community</a></li>
-              <li><a href="Support.html">Support</a></li>
-            </ul>
-          </div>
+    <!-- secction05 carrucel for opinions -->
+    <section class="row sec05">
+      <div>
+        <div class="text-center text-light p-2">
+          <h1>What Our Customers Are Saying</h1>
         </div>
-        <div class="col-lg-2 col-md-6 text">
-          <div class="py-2"><span class="h5 text-primary">PC</span></div>
-          <div class="d-block">
-            <ul class="list-group">
-              <li><a href="Desktop.html">Desktop / All in One</a></li>
-              <li><a href="Portatil.html">Portatil / Tablets</a></li>
-              <li><a href="Software.html">Software</a></li>
-            </ul>
+        <div>
+          <div id="carouselCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="opinions">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <p>
+                    This was some of the best customer service I have ever
+                    experienced. Response times were incredibly fast and I
+                    feel well taken care of.
+                  </p>
+                </div>
+                <div class="imdBg"></div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="perName">Josh C.</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="opinions">
+                  <i class="bi bi-star-fill fw-bold"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <p>
+                    Kimberly provided OUTSTANDING support. I could not ask for
+                    more. I worked in support for a vendor. Her
+                    professionalism and product knowledge is excellent. Due to
+                    her handling of this problem, I will put Razer products a
+                    the top of my list when considering updating or adding to
+                    my hardware. Thank you for maintaining this level of
+                    support.
+                  </p>
+                </div>
+                <div class="imdBg"></div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Dan A.</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="opinions">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <p>
+                    I spent hours fixing the problem i was having with synapse
+                    3. Reddit didnt help sadly. The online support chat was
+                    sooooo good it literally made my day. Foxed my issue in no
+                    time. 5 stars ⭐️⭐️⭐️⭐️⭐️ best support out there.
+                    Thank you Jane!!
+                  </p>
+                </div>
+                <div class="imdBg"></div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Jasraj S.</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </div>
-        <div class="col-lg-2 col-md-6 text">
-          <div class="py-2"><span class="h5 text-primary">CONSOLE</span></div>
-          <div class="d-block">
-            <ul class="list-group">
-              <li>
-                <a href="Console.html"
-                  >PlayStation <br />
-                  XBOX <br />
-                  Nintendo</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 text">
-          <div class="py-2"><span class="h5 text-primary">MOBILE</span></div>
-          <div class="d-block">
-            <ul class="list-group">
-              <li>
-                <a href="Mobile.html"
-                  >SmarkPhone <br />
-                  Tablets <br />
-                  Other Brands</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 text">
-          <div class="py-2">
-            <span class="h5 text-light lgtxt">REDES</span>
-          </div>
-          <div class="d-block">
-            <ul class="list-group">
-              <li class="pb-2">
-                <a href="#"
-                  ><i class="bi bi-twitter redesIcon"></i> | Twitter</a
-                >
-              </li>
-              <li class="pb-2">
-                <a href="#"
-                  ><i class="bi bi-facebook redesIcon"></i> | Facebook</a
-                >
-              </li>
-              <li class="pb-2">
-                <a href="#"
-                  ><i class="bi bi-instagram redesIcon"></i> | Instagram</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="line-divider"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center">
-          <span class="footer"
-            >Copyright © 2023 OptimusTec. All rights reserved</span
-          >
         </div>
       </div>
-    </footer>
-    <!-- end Footer -->
+    </section>
+  </main>
 
-    <script src="../JS/account.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- start Footer -->
+  <footer class="container-fluid">
+    <div class="row py-2">
+      <div class="col-lg-4 col-md-6 text">
+        <div class="py-2">
+          <span class="h5 text-primary">OptimusTec Comunity</span>
+        </div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li><a href="Lifestyle.html">LifeStyle</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <li><a href="Community.html">Community</a></li>
+            <li><a href="Support.html">Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 text">
+        <div class="py-2"><span class="h5 text-primary">PC</span></div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li><a href="Desktop.html">Desktop / All in One</a></li>
+            <li><a href="Portatil.html">Portatil / Tablets</a></li>
+            <li><a href="Software.html">Software</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 text">
+        <div class="py-2"><span class="h5 text-primary">CONSOLE</span></div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li>
+              <a href="Console.html">PlayStation <br />
+                XBOX <br />
+                Nintendo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 text">
+        <div class="py-2"><span class="h5 text-primary">MOBILE</span></div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li>
+              <a href="Mobile.html">SmarkPhone <br />
+                Tablets <br />
+                Other Brands</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 text">
+        <div class="py-2">
+          <span class="h5 text-light lgtxt">REDES</span>
+        </div>
+        <div class="d-block">
+          <ul class="list-group">
+            <li class="pb-2">
+              <a href="#"><i class="bi bi-twitter redesIcon"></i> | Twitter</a>
+            </li>
+            <li class="pb-2">
+              <a href="#"><i class="bi bi-facebook redesIcon"></i> | Facebook</a>
+            </li>
+            <li class="pb-2">
+              <a href="#"><i class="bi bi-instagram redesIcon"></i> | Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="line-divider"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center mb-4">
+        <span class="footer text-primary">Copyright © 2023 OptimusTec. All rights reserved</span>
+      </div>
+    </div>
+  </footer>
+  <!-- end Footer -->
+
+  <script src="../JS/account.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
