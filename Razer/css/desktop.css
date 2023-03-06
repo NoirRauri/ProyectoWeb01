@@ -25,7 +25,7 @@ div.title {
 h1.textTitle {
   position: relative;
   bottom: 55px;
-  text-shadow: 3px 2px 3px #ff0033;
+  text-shadow: 3px 2px 3px blue;
   font-size: 70px;
 }
 
@@ -47,7 +47,8 @@ div.transitionDesktop:hover {
 /*Transicion */
 
 .cardQuote {
-  background-color: thistle;
+  background-color: black;
+  color: whitesmoke;
   margin: 25px;
   /* padding: px; */
 }

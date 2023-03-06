@@ -17,7 +17,7 @@ html {
     height: 700px;
   }
   div.Mobiletitle {
-    background-image: url(../img/Mobile/bg-title-mobile.jpg);
+    background-image: url(../img/Mobile/bg-mobile-titlt.jpg);
     background-size: 100%;
     background-size: cover;
     background-position: center;
@@ -27,6 +27,232 @@ html {
   h1.MobiletextTitle {
     position: relative;
     bottom: 55px;
-    text-shadow: 3px 2px 3px #ff0033;
+    text-shadow: 3px 2px 3px blue;
     font-size: 70px;
   }
+  /*High Range*/
+/*Seccion 3*/
+ section.MobileSecThree{
+  
+    height: 700px;
+    max-width: 100%;
+ } 
+ div.bgImg1{
+    background-image: url(../img/Mobile/bg-section3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: solid ;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor:move;
+    margin: 5px;
+    position: relative;
+    left: 530px;
+    top:450px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/*Seccion 3*/
+
+
+/*Seccion 4*/
+
+.Mobileseccion4col1{
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/Mobile/bg-product1section4.jpg);
+    background-size:cover;
+    background-position: 80% ;
+    margin: 50px;
+    margin-left: 70px;
+}
+
+.Mobileseccion4col2{
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/Mobile/bg-product2section4.jpg);
+    background-size:cover;
+    background-position: 80% ;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+.Mobileseccion4col3{
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/Mobile/bg-product3.1section4.jpg);
+    background-size:cover;
+    background-position: 80% ;
+    margin: 50px;
+    position: relative;
+    left: 350px;    
+}
+
+/*Seccion 4*/
+
+/*Medium Range*/
+/*Seccion 6*/
+section.Mobilseccion6{
+  
+    height: 700px;
+    max-width: 100%;
+ } 
+ div.bgImg2{
+    background-image: url(../img/Mobile/bg-section6.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ /*Seccion 7*/
+ .Mobileseccion7col1{
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/Mobile/bg-product1section7.jpg);
+    background-size:cover;
+    background-position: 40% ;
+    margin: 50px;
+    margin-left: 70px;
+}
+
+.Mobileseccion7col2{
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/Mobile/bg-product2.1section7.jpg);
+    background-size:cover;
+    background-position: 40% ;
+    margin: 50px;
+    margin-left: 150px;
+}
+.Mobileseccion7col2A a{
+    position: relative;
+    top: 325px;
+}
+
+.Mobileseccion7col3{
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/Mobile/bg-product3section7.jpg);
+    background-size:cover;
+    background-position: 80% ;
+    margin: 50px;
+    position: relative;
+    left: 350px;    
+}
+
+/*seccionn 9*/
+section.Mobileseccion9{
+  
+    height: 700px;
+    max-width: 100%;
+ } 
+ div.bgImg3{
+    background-image: url(../img/Mobile/bg-section9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: solid ;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor:move;
+    margin: 5px;
+    position: relative;
+    left: 530px;
+    top:450px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /*Prueba*/
+  .MobileSeccionX{
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/Mobile/bg-product1section7.jpg);
+    margin: 50px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
+    margin-left: 150px;
+  }
+  .MobileSeccionX2{
+    
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/Mobile/bg-product3section7.jpg);
+    margin-top: 50px;
+    margin-left: 0px;
+
+
+  }
+  @ {
+    .MobileSecciones { display: flex; align-self: start; margin: 0; padding: 0;}
+  } 
+  
