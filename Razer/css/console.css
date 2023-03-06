@@ -23,26 +23,40 @@ section {
 
 .secPSB-01 {
   background-color: var(--bg-card-color);
-  height: 300px;
+  height: 400px;
 }
 
 .secPSB-01 div {
   margin: 0 20%;
 }
-
-.secPSB-02 {
-  background-image: url("../img/Console/razer-wolverine-v2-pro-black-white-category-1920x700-desktop.jpg");
+.secPSB-02,
+.secPSB-04,
+.secPSB-05,
+.secPSB-06,
+.secPSB-07,
+.secPSB-09,
+.secPSB-10,
+.secPSB-11,
+.secPSB-12,
+.secPSB-14 {
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
 }
 
-.secPSB-02 div {
+.secPSB-02 {
+  background-image: url("../img/Console/razer-wolverine-v2-pro-black-white-category-1920x700-desktop.jpg");
+}
+
+.secPSB-02 div,
+.secPSB-04 div {
   margin-top: 5%;
 }
 
-.secPSB-02 div h1 {
+.secPSB-01 div h1,
+.secPSB-02 div h1,
+.secPSB-04 div h1 {
   font-size: 60px;
 }
 
@@ -50,42 +64,73 @@ section {
   height: 700px;
 }
 
-.bgHH1,
-.bgHH2 {
+.secPSB-03 .bgHH1,
+.secPSB-03 .bgHH2 {
   border-radius: 5px;
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  /* margin: 0 auto;   */
   max-width: 100%;
 }
 
-.bgHH1 {
+.secPSB-03 .bgHH1 {
   background-image: url("../img/Console/razer-hammerhead-hyperspeed-xbox-category_558x587.jpg");
 }
 
-.bgHH2 {
+.secPSB-03 .bgHH2 {
   background-image: url("../img/Console/razer-hammerhead-hyperspeed-playstation-category_558x587.jpg");
 }
 
 .secPSB-04 {
   background-image: url("../img/Console/razer-xbox-controller-and-charging-stand-1920x700-desktop.jpg");
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
 }
 
-@media (max-width: 960px) {
-  .bgHH1,
-  .bgHH2 {
-    background-position: center right;
-  }
-}
-
-.bgHH1 a:hover,
-.bgHH2 a:hover {
+.secPSB-03 .bgHH1 a:hover,
+.secPSB-03 .bgHH2 a:hover,
+.secPSB-02 div a:hover,
+.secPSB-04 div a:hover {
   color: var(--optimus-primary);
   font-size: 18px;
   text-shadow: 0rem 0rem 0.4rem var(--bg-OptimusT);
+}
+
+.secPSB-05 {
+  background-image: url("../img/Console/nbcf-partnership-1920x400.jpg");
+  height: 400px;
+}
+
+.secPSB-06 {
+  background-image: url("../img/Console/stormtrooper-1920x700-desktop.jpg");
+}
+
+.secPSB-07 {
+  background-image: url("../img/Console/sonic-the-hedgehog-xbox-controller-and-charging-stand-1920x700-desktop.jpg");
+}
+
+.secPSB-09 {
+  background-image: url("../img/Console/gamesetmatch-category-1920x700-desktop.jpg");
+}
+
+.secPSB-10 {
+  background-image: url("../img/Console/razer-kaira-pro-category-desktop.jpg");
+}
+
+.secPSB-11 {
+  background-image: url("../img/Console/razer-wolverine-v2-chroma-category-1920x700-desktop.jpg");
+}
+
+.secPSB-12 {
+  background-image: url("../img/Console/connect-compete-conquer-category-1920x700-desktop.jpg");
+}
+
+.secPSB-14 {
+  background-image: url("../img/Console/console-gamepads-engineered-category-desktop.jpg");
+  height: 300px;
+}
+
+@media (max-width: 960px) {
+  .secPSB-03 .bgHH1,
+  .secPSB-03 .bgHH2 {
+    background-position: center right;
+  }
 }
