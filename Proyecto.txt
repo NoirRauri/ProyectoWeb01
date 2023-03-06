@@ -6,7 +6,7 @@ N=none - S=start - M=missing - C=completed
 
 Main-Index -M-C
 10-PagSec
-	1.pc/muestre principales productos -D
+	1.pc/muestre principales productos -D-S
 		2.Destok - all in one anclas
 		Portail - tables PC
 		3.Software
