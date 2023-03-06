@@ -91,35 +91,56 @@ html {
 
 /*Seccion 4*/
 
-.Mobileseccion4col1{
-    height: 500px;
-    width: 500px;
-    background-image: url(../img/Mobile/bg-product1section4.jpg);
-    background-size:cover;
-    background-position: 80% ;
-    margin: 50px;
-    margin-left: 70px;
+.MobileSeccion4col1{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  
+}
+.MobileSeccion4col2{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+
 }
 
-.Mobileseccion4col2{
-    height: 500px;
-    width: 500px;
-    background-image: url(../img/Mobile/bg-product2section4.jpg);
-    background-size:cover;
-    background-position: 80% ;
-    margin: 50px;
-    margin-left: 150px;
+.MobileSeccion4col3{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product3.1section4.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
 }
-
-.Mobileseccion4col3{
-    height: 500px;
-    width: 500px;
-    background-image: url(../img/Mobile/bg-product3.1section4.jpg);
-    background-size:cover;
-    background-position: 80% ;
-    margin: 50px;
-    position: relative;
-    left: 350px;    
+.MobileSeccion4col4{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product4section4.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
 }
 
 /*Seccion 4*/
@@ -138,39 +159,57 @@ section.Mobilseccion6{
  }
 
  /*Seccion 7*/
- .Mobileseccion7col1{
-    height: 500px;
-    width: 500px;
-    background-image: url(../img/Mobile/bg-product1section7.jpg);
-    background-size:cover;
-    background-position: 40% ;
-    margin: 50px;
-    margin-left: 70px;
+ .MobileSeccion7col1{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product2.1section7.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
 }
 
-.Mobileseccion7col2{
-    height: 500px;
-    width: 500px;
-    background-image: url(../img/Mobile/bg-product2.1section7.jpg);
-    background-size:cover;
-    background-position: 40% ;
-    margin: 50px;
-    margin-left: 150px;
-}
-.Mobileseccion7col2A a{
-    position: relative;
-    top: 325px;
+
+.MobileSeccion7col2{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product3section7.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
 }
 
-.Mobileseccion7col3{
-    height: 500px;
-    width: 500px;
-    background-image: url(../img/Mobile/bg-product3section7.jpg);
-    background-size:cover;
-    background-position: 80% ;
-    margin: 50px;
-    position: relative;
-    left: 350px;    
+.MobileSeccion7col3{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product3section4.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;   
+}
+
+.MobileSeccion7col4{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product1section7.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 45%;   
 }
 
 /*seccionn 9*/
@@ -234,12 +273,12 @@ section.Mobileseccion9{
     height: 500px;
     width: 500px;
     background-image: url(../img/Mobile/bg-product1section7.jpg);
-    margin: 50px;
+    
     margin-top: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40%;
-    margin-left: 150px;
+    
   }
   .MobileSeccionX2{
     
@@ -249,10 +288,11 @@ section.Mobileseccion9{
     background-image: url(../img/Mobile/bg-product3section7.jpg);
     margin-top: 50px;
     margin-left: 0px;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 
   }
-  @ {
-    .MobileSecciones { display: flex; align-self: start; margin: 0; padding: 0;}
-  } 
+  
+  
+
   
