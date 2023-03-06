@@ -2,26 +2,25 @@ Tienda tecnologica
 marca: Optimous
 
 M=michael - D=Daniel - 
-N=none - S=start - M=missing - E=end
+N=none - S=start - M=missing - C=completed
 
-Main-Index -M-E
+Main-Index -M-C
 10-PagSec
-	pc/muestre principales productos -D
-		Destok - all in one anclas
+	1.pc/muestre principales productos -D
+		2.Destok - all in one anclas
 		Portail - tables PC
-		Software
-	console/ -M-N
-		PS/Xbox
-		Nintendo
-	mobile/ -D
+		3.Software
+	4.console/ -M-N
+		(PS, Xbox, Nintendo) :accesorios
+	5.mobile/ -D
 		gama alta
 		gama media
 		gama baja
-	lifestyle/merch -D
-	Service -M
-	Community -D
-	Support -M-E
-	account -M-E
+	6.lifestyle/merch -D
+	7.Service -M-N
+	8.Community -D
+	9.Support -M-C
+	10.account -M-C
 		form
 
 Comandos para subir una archivo a git 
