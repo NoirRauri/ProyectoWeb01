@@ -1,6 +1,7 @@
 :root {
   --optimus-primary: #1b5ec1;
   --optimus-secundary: #ff0033;
+  --bg-Optimus: #0d1a2e;
   --bg-OptimusT: #00112b;
   --bg-OptimusB: #000000;
   --text-color: #555555;
@@ -12,7 +13,8 @@
   --bShadow-form-color: #00000080;
   --bg-table-color: #111111;
   --bg-card-color: #161616;
-  --br-box-color: #694400;
+  --br-boxG-color: #694400;
+  --br-boxS-color: #696969;
 }
 
 html {
