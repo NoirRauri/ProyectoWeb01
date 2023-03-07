@@ -99,7 +99,7 @@
   background-image: url(../img/main/deathadder-v3-pro-faker-hero.jpg);
 }
 .sec03 {
-  background-image: url(../img/main/razer-blade-16-usp6-desktop-new.jpg);
+  background-image: url(../img/main/razer-blade-18-homepage-desktop.jpg);
 }
 
 .mlink:hover {
@@ -107,12 +107,9 @@
   text-shadow: 0 0.2rem 0.6rem var(--bg-OptimusB);
 }
 .sec04 div.cardAc {
-  margin: 0.5rem 0rem;
-  padding-top: 4rem;
-  background-color: var(--bg-OptimusT);
-  border: 2px solid var(--optimus-primary);
-  box-shadow: 0rem 0.2rem 0.6rem var(--optimus-primary);
-  border-radius: 4px;
+  box-sizing: border-box;
+  /* border: 1px solid var(--br-boxG-color); */
+  border-radius: 0.5rem !important;
 }
 
 .sec04 div img {
