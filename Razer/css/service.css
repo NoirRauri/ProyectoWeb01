@@ -6,7 +6,71 @@
 /* importacion de styles del footer */
 @import url("footer.css");
 
+main.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
 section {
   color: var(--optimus-primary);
-  height: 1000px;
+  height: 500px;
+}
+
+.sec00 {
+  height: 60px;
+}
+.sec01 {
+  height: auto;
+}
+
+.div-img {
+  display: flex;
+  justify-content: center;
+}
+
+.sec02 {
+  margin: 20px 10%;
+  height: auto;
+}
+
+.sec02 .catGrid {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.imgBox {
+  box-sizing: border-box;
+  border: 1px solid var(--br-box-color);
+  border-radius: 0.5rem !important;
+}
+
+.imgBox:hover {
+  border: 1px solid var(--optimus-primary);
+}
+
+div.gridImg {
+  height: 0;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+}
+
+div.catGrid img {
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+
+div.catGrid img:hover {
+  transform: scale(1.1);
+}
+
+div.viewBtn {
+  display: flex;
+  justify-content: center;
 }
