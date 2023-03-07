@@ -117,6 +117,16 @@
   max-width: 100%;
   min-width: 260px;
 }
+.gridImg {
+  background-position: center;
+  background-position: bottom;
+  min-height: 480px;
+  transition: all 0.5s ease;
+}
+
+.gridImg:hover {
+  transform: scale(1.05);
+}
 
 .btnReturn {
   width: 100%;
