@@ -30,7 +30,27 @@ html {
     text-shadow: 3px 2px 3px blue;
     font-size: 70px;
   }
+
   /*High Range*/
+
+  
+  /*Transicion Mobile */
+.secTwo {
+  max-height: 600px;
+}
+div.transitionMobile {
+  width: 500px;
+  transition-property: height ease;
+}
+div.transitionMobile:hover {
+  background-image: url(../img/Mobile/bg-transicion.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+/*Transicion */
+
 /*Seccion 3*/
  section.MobileSecThree{
   
@@ -149,6 +169,24 @@ html {
 /*Seccion 4*/
 
 /*Medium Range*/
+
+
+  /*Transicion Mobile */
+  .secTwo {
+    max-height: 600px;
+  }
+  div.transitionMobile {
+    width: 500px;
+    transition-property: height ease;
+  }
+  div.transitionMobile2:hover {
+    background-image: url(../img/Mobile/bg-transicion.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+  }
+  /*Transicion */
 /*Seccion 6*/
 section.Mobilseccion6{
   
@@ -261,6 +299,26 @@ section.Mobilseccion6{
   background-size: cover;
   background-position: 45%;   
 }
+
+/*Low range transicion*/
+
+
+  /*Transicion Mobile */
+  .secTwo {
+    max-height: 600px;
+  }
+  div.transitionMobile {
+    width: 500px;
+    transition-property: height ease;
+  }
+  div.transitionMobile3:hover {
+    background-image: url(../img/Mobile/bg-transicion.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+  }
+  /*Transicion */
 
 /*seccionn 9*/
 section.Mobileseccion9{
