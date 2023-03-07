@@ -11,6 +11,7 @@ html {
 }
 /*---Main---*/
 
+
 .secOne {
   height: 700px;
 }
@@ -46,6 +47,116 @@ div.transitionDesktop:hover {
 }
 /*Transicion */
 
+/*bg image despues de la transicion del destop*/
+section.DeskSec{
+  height: 700px;
+  max-width: 100%;
+} 
+div.DeskbgImg1{
+  background-image: url(../img/Desktop/bg-desk1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 15px;
+}
+button.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: solid ;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor:move;
+  margin: 5px;
+  position: relative;
+  left: 530px;
+  top:450px;
+  cursor: pointer;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*bg image despues de la transicion del destop*/
+
+/*Desk products*/
+.DeskProduct1{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  
+}
+.DeskProduct2{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+}
+.DeskProduct3{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  
+}
+.DeskProduct4{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+}
+
+
 .cardQuote {
   background-color: black;
   color: whitesmoke;
@@ -75,9 +186,123 @@ div.transitionAllInOne:hover {
   background-size: cover;
   transition: 0.5s;
 }
+
+/*bg image despues de la transicion del all in one*/
+section.AllinOneSec{
+  
+  height: 700px;
+  max-width: 100%;
+} 
+div.AllinOnebgImg1{
+  background-image: url(../img/Desktop/bg-AllinOne1.1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 15px;
+}
+
+button.buttonALLinOne {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: solid ;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor:move;
+  margin: 5px;
+  position: relative;
+  left: 530px;
+  top:450px;
+  cursor: pointer;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*bg image despues de la transicion del all in one*/
+
+/*All In one products*/
+.AllinOneProduct1{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  
+}
+.AllinOneProduct2{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  
+}
+.AllinOneProduct3{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+}
+.AllinOneProduct4{
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  margin-top: 50px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+}
+
+
+
 /*animacion*/
 .animationTitle {
-  width: 600px;
+  width: 800px;
   height: 50px;
   position: relative;
   animation: mymove 7s infinite;
@@ -89,7 +314,7 @@ div.transitionAllInOne:hover {
     left: 0px;
   }
   to {
-    left: 750px;
+    left: 550px;
   }
 }
 
