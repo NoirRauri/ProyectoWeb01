@@ -12,179 +12,444 @@
 </head>
 
 <body>
-  <main class="container-fluid">
-
-    <!-- Start Header -->
-    <header class="shadow">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand d-none d-sm-block lgtxt me-5" href="../index.html"><img src="" alt="" />
-            OpstimusTec</a>
-          <a class="navbar-brand d-sm-none me-2 lgtxt" href="../index.html"><img src="" alt="" /> OpT</a>
-          <div class="navbar-toolbar d-flex align-items-center order-lg-3">
-            <button class="navbar-toggler me-auto order-lg-2" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <button class="btnLogin-popup">
-              <i class="bi bi-person-circle"></i>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown me-5 lowbar">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  PC
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="Desktop.html">Desktop/Allo on One</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Portatil.html">Portatil/TabletsPC</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Software.html">Software</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown me-5 lowbar">
-                <a class="nav-link" href="Console.html"> CONSOLE </a>
-              </li>
-              <li class="nav-item dropdown me-5 lowbar">
-                <a class="nav-link" href="Mobile.html"> MOBILE </a>
-              </li>
-              <li class="nav-item dropdown me-5 lowbar">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  COMUNITY
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="lowbar">
-                    <a class="dropdown-item" href="Lifestyle.html">LifeStyle</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Service.html">Service</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Community.html">Community</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="Support.html">Support</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btnLogin-popup" type="submit">
-                <i class="bi bi-search"></i>
-              </button>
-            </form>
-          </div>
+  <!-- Start Header -->
+  <header class="shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand d-none d-sm-block lgtxt me-5" href="../index.html"><img src="" alt="" /> OpstimusTec</a>
+        <a class="navbar-brand d-sm-none me-2 lgtxt" href="../index.html"><img src="" alt="" /> OpT</a>
+        <div class="navbar-toolbar d-flex align-items-center order-lg-3">
+          <button class="navbar-toggler me-auto order-lg-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button class="btnLogin-popup">
+            <i class="bi bi-person-circle"></i>
+          </button>
         </div>
-      </nav>
-      <!-- start PopUp -->
-      <div class="wrapper">
-        <span class="iconClose">
-          <i class="bi bi-x-lg"></i>
-        </span>
-        <div class="formBox login">
-          <h2>Login</h2>
-          <form action="#">
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
-              <input type="email" required />
-              <label for="">@email</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
-              <input type="password" required />
-              <label for="">password</label>
-            </div>
-            <div class="rememberForgot">
-              <label for="">
-                <input type="checkbox" name="checkbox" id="checkbox" />
-                Remenber me
-              </label>
-              <a href="#">Forgot Password</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <div class="logiRegister">
-              <p>
-                Don't have an account?
-                <a href="#" class="registerLink">Register</a>
-              </p>
-            </div>
-          </form>
-        </div>
-
-        <div class="formBox register">
-          <h2>Resgistration</h2>
-          <form action="#">
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
-              <input type="text" required />
-              <label for="">Full Name</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-person-fill"></i></span>
-              <input type="text" required />
-              <label for="">Username</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-telephone-fill"></i></span>
-              <input type="number" required />
-              <label for="">Phone</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
-              <input type="email" required />
-              <label for="">@email</label>
-            </div>
-            <div class="inputB">
-              <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
-              <input type="password" required />
-              <label for="">password</label>
-            </div>
-            <div class="rememberForgot">
-              <label for="" class="text-uppercase">Gender:</label>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                  value="option1" />
-                <label class="form-check-label" for="inlineRadio1">Male</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                  value="option2" />
-                <label class="form-check-label" for="inlineRadio2">Female</label>
-              </div>
-            </div>
-            <div class="rememberForgot">
-              <label for="">
-                <input type="checkbox" name="checkbox" id="checkbox" />
-                I agree to yhe terms & conditions
-              </label>
-            </div>
-            <button type="submit" class="btn text-primary">Resgister</button>
-            <div class="logiRegister">
-              <p>
-                Already have an account
-                <a href="#" class="loginLink">login</a>
-              </p>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown me-5 lowbar">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PC
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Desktop.html">Desktop/Allo on One</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Portatil.html">Portatil/TabletsPC</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Software.html">Software</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-5 lowbar">
+              <a class="nav-link" href="Console.html"> CONSOLE </a>
+            </li>
+            <li class="nav-item dropdown me-5 lowbar">
+              <a class="nav-link" href="Mobile.html"> MOBILE </a>
+            </li>
+            <li class="nav-item dropdown me-5 lowbar">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                COMUNITY
+              </a>
+              <ul class="dropdown-menu">
+                <li class="lowbar">
+                  <a class="dropdown-item" href="Lifestyle.html">LifeStyle</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Service.html">Service</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Community.html">Community</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Support.html">Support</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btnLogin-popup" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
           </form>
         </div>
       </div>
-      <!-- end PopUp -->
-    </header>
-    <!-- end Header -->
+    </nav>
+    <!-- start PopUp -->
+    <div class="wrapper">
+      <span class="iconClose">
+        <i class="bi bi-x-lg"></i>
+      </span>
+      <div class="formBox login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+            <input type="email" required />
+            <label for="">@email</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+            <input type="password" required />
+            <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              Remenber me
+            </label>
+            <a href="#">Forgot Password</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="logiRegister">
+            <p>
+              Don't have an account?
+              <a href="#" class="registerLink">Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
 
-    <section class="row">
-      <h1>Service</h1>
+      <div class="formBox register">
+        <h2>Resgistration</h2>
+        <form action="#">
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
+            <input type="text" required />
+            <label for="">Full Name</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-person-fill"></i></span>
+            <input type="text" required />
+            <label for="">Username</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-telephone-fill"></i></span>
+            <input type="number" required />
+            <label for="">Phone</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
+            <input type="email" required />
+            <label for="">@email</label>
+          </div>
+          <div class="inputB">
+            <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
+            <input type="password" required />
+            <label for="">password</label>
+          </div>
+          <div class="rememberForgot">
+            <label for="" class="text-uppercase">Gender:</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                value="option1" />
+              <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                value="option2" />
+              <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+          </div>
+          <div class="rememberForgot">
+            <label for="">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              I agree to yhe terms & conditions
+            </label>
+          </div>
+          <button type="submit" class="btn text-primary">Resgister</button>
+          <div class="logiRegister">
+            <p>
+              Already have an account
+              <a href="#" class="loginLink">login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end PopUp -->
+  </header>
+  <!-- end Header -->
+  <main class="container-fluid">
+    <div class="sec00"></div>
+
+    <section class="row sec01">
+      <div id="carouselInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <div class="div-img">
+              <img src="../img/Service/GE4TEMDYGUYDAX2QJZJQ====.avif" alt="" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PSN February Exclusive Promotion</h5>
+              <p>Win PS5 and Optimus-Tec Gold Pins Now</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="div-img">
+              <img src="../img/Service/O5SWELLCMFXG4ZLSFUYTSMRQPA2TAMA=.avif" alt="" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>SCORE BONUS 4250 TOKENS ON JAWAKER</h5>
+              <p>ONLY WITH Optimus-Tec GOLD</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="div-img">
+              <img src="../img/Service/GE4TEMDYGUYDAX2ZMFWGYYK7JR2WI327IRSWG===.webp" alt="" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Yalla Ludo Exclusive February Promotion</h5>
+              <p>
+                Stand to Score $300 Optimus-Tec Gold Now and extra Yalla Ludo
+                items
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="div-img">
+              <img src="../img/Service/GE4TEMDYGUYDAX2QJZJQ====.avif" alt="" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>SCORE 10% REBATE - LIMITED QUANTITIES!</h5>
+              <p>Pull Dehya and Cyno Now</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="div-img">
+              <img src="../img/Service/GE4TEMDYGUYDAX2QKVBEOICNN5RGS3DFEBGTEMBNIRQXE2LOM4QEIYLXNZPUO3DPMJQWY===.avif"
+                alt="" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PUBG Mobile M20: Daring Dawn</h5>
+              <p>Recharge with Optimus-Tec Gold now!</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="div-img">
+              <img src="../img/Service/GE4TEMDYGUYDAX2DJ5CE2X2GIVBF6UDSN5WW6===.avif" alt="" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Call of Duty: Mobile Epic Promotion</h5>
+              <p>Recharge with Optimus-Tec Gold now</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="div-img">
+              <img src="../img/Service/GE4TEMDYGUYDA===.avif" alt="" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Call of Duty: Mobile Epic Promotion</h5>
+              <p>Recharge with Optimus-Tec Gold now</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
+
+    <section class="row sec02">
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/JNCCAVDIOVWWE3TBNFWCANJRGJ4DKMJS.avif" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">KartRider: DRIFT</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6SDPM53WC4TUONPUYZI=.avif" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">Hogwarts Legacy</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6QLQOBWGKICHNFTHIICDMFZGI===.webp" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">Apple Card (US)</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/OJXWE3DPPA======.webp" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">Roblox (US)</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6QLNMF5G63Q=.avif" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">Amazon (US)</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6WLBNRWGCICMOVSG6===.webp" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">Yalla Ludo</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6QTJM5XV6TDJOZSQ====.webp" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">Bigo Live</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6UDMMF4VG5DBORUW63S7KN2G64TF.webp" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">PlayStation®Store (UAE)</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6UDMMF4VG5DBORUW63S7KN2G64TF.webp" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">PlayStation®Store (Saudi Arabia)</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6UDMMF4VG5DBORUW63S7KN2G64TF.webp" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">PlayStation®Store (MENA)</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/512x512GenshinImpact.webp" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">Genshin Impact</p>
+        </div>
+      </div>
+      <div class="catGrid col-sm-4 col-lg-2 col-6">
+        <div>
+          <div class="imgBox">
+            <a href="upcoming.html">
+              <div aria-hidden="true" class="gridImg">
+                <img src="../img/Service/GUYTE6BVGEZF6VDFNZRWK3TUL5HGS23LMU======.jpg" alt="" class="mx-auto d-block">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-block text-center pt-2 text--white text-decoration-none">
+          <p class="">GODDESS OF VICTORY: NIKKE</p>
+        </div>
+      </div>
+      <div class="viewBtn">
+        <a href="upcoming.html" class="btn btn-primary w-25"> View All </a>
+      </div>
+    </section>
+
+    <secrion class="row">
+      <div class="col"></div>
+    </secrion>
   </main>
   <script src="../JS/account.js"></script>
 
