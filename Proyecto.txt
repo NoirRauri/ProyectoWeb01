@@ -10,14 +10,14 @@ Main-Index -M-C
 		2.Destok - all in one anclas 
 		Portail - tables PC
 		3.Software
-	4.console/ -M-N
+	4.console/ -M-C
 		(PS, Xbox, Nintendo) :accesorios
 	5.mobile/ -D-S
 		gama alta
 		gama media
 		gama baja
 	6.lifestyle/merch -D-N
-	7.Service -M-N
+	7.Service -M-C
 	8.Community -D-N
 	9.Support -M-C
 	10.account -M-C
