@@ -69,3 +69,10 @@ div.intro-mainC {
 width: 100px;
 height: 100px;
 }
+
+.competition{
+    height: 800px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/community/bg-competition.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
