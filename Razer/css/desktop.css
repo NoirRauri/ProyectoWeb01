@@ -34,14 +34,16 @@ h1.textTitle {
   max-height: 600px;
 }
 div.transitionDesktop {
-  width: 500px;
-  background-position: center bottom;
+  height: 700px;
 
-  transition: all 0.5s ease;
+  transition:  ease;
 }
 div.transitionDesktop:hover {
-  background-image: url(../img/Desktop/desktop-bg-img.jpg);
-  transform: scale(1.05);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Desktop/bg-transition1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
 }
 /*Transicion */
 
@@ -180,7 +182,7 @@ div.transitionAllInOne {
   transition-property: height ease;
 }
 div.transitionAllInOne:hover {
-  background-image: url(../img/Desktop/bg-transition2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Desktop/bg-transition2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -213,7 +215,7 @@ button.buttonALLinOne {
   transition: all 0.5s;
   cursor: move;
   margin: 5px;
-  margin: 100px auto;
+  margin: 90px auto;
   cursor: pointer;
 }
 
