@@ -38,10 +38,34 @@ html{
 }
 
 
-
+/*below welcome to the community bg image*/
 div.intro-mainC {
     background-color: black;
     height: 350px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+.getStarted{
+    height: 800px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/community/bg-getStarted1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.getStartedKids{
+    height: 800px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/community/bg-getStartedKids.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.getStartedP{
+    margin-top: 50px;
+    font-size: 30px;
+    color: var(--title-color);
+}
+.getStartedSpan{
+
+   
+width: 100px;
+height: 100px;
+}
