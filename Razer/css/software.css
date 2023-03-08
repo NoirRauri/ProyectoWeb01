@@ -61,7 +61,7 @@ div.SoftwarebgImg1{
   margin-left: 15px;
 }
 button.buttonSoftware {
-  display: inline-block;
+  display: grid;
   border-radius: 4px;
   background-color: #f4511e;
   border: solid ;
@@ -73,9 +73,7 @@ button.buttonSoftware {
   transition: all 0.5s;
   cursor:move;
   margin: 5px;
-  position: relative;
-  left: 530px;
-  top:450px;
+  margin: 100px auto;
   cursor: pointer;
 }
 

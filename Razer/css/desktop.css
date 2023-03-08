@@ -20,13 +20,11 @@ div.title {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: var(--title-color);
 }
 h1.textTitle {
   position: relative;
   bottom: 55px;
-  text-shadow: 3px 2px 3px ;
-  color:var(--optimus-primary);
+  text-shadow: 3px 2px 3px blue;
   font-size: 70px;
 }
 
@@ -36,13 +34,13 @@ h1.textTitle {
   max-height: 600px;
 }
 div.transitionDesktop {
-  background-image: url(../img/Desktop/desktop-bg-img.jpg);
   width: 500px;
   background-position: center bottom;
 
   transition: all 0.5s ease;
 }
 div.transitionDesktop:hover {
+  background-image: url(../img/Desktop/desktop-bg-img.jpg);
   transform: scale(1.05);
 }
 /*Transicion */
@@ -51,15 +49,22 @@ div.transitionDesktop:hover {
 section.DeskSec {
   height: 700px;
   max-width: 100%;
+  color: var(--optimus-primary);
 }
 div.DeskbgImg1 {
   background-image: url(../img/Desktop/bg-desk1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 15px;
+  transition: all 0.5s ease;
+
 }
+div.DeskbgImg1:hover {
+  transform: scale(1.05);
+}
+
 button.button1 {
-  display: inline-block;
+  display: grid;
   border-radius: 4px;
   background-color: #f4511e;
   border: solid;
@@ -71,9 +76,7 @@ button.button1 {
   transition: all 0.5s;
   cursor: move;
   margin: 5px;
-  position: relative;
-  left: 530px;
-  top: 450px;
+  margin: 100px auto;
   cursor: pointer;
 }
 
@@ -188,16 +191,17 @@ div.transitionAllInOne:hover {
 section.AllinOneSec {
   height: 700px;
   max-width: 100%;
+  color: var(--optimus-primary);
 }
 div.AllinOnebgImg1 {
-  background-image: url(../img/Desktop/bg-AllinOne1.1.jpg);
+  background-image: url(../img/Desktop/bg-AllinOne1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 15px;
 }
 
 button.buttonALLinOne {
-  display: inline-block;
+  display: grid;
   border-radius: 4px;
   background-color: #f4511e;
   border: solid;
@@ -209,9 +213,7 @@ button.buttonALLinOne {
   transition: all 0.5s;
   cursor: move;
   margin: 5px;
-  position: relative;
-  left: 530px;
-  top: 450px;
+  margin: 100px auto;
   cursor: pointer;
 }
 
@@ -338,6 +340,10 @@ div.bgOptimus {
   background-image: url(../img/Desktop/bg-optimus6.jpg);
   background-size: cover;
   height: 600px;
+  transition: all 0.5 ease;
+}
+div.bgOptimus:hover {
+  transform: scale(1.05);
 }
 
 .h1Optimus:hover {

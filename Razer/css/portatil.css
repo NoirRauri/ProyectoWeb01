@@ -82,7 +82,7 @@ div.TabletbgImg1{
   margin-left: 15px;
 }
 button.buttonTablet {
-  display: inline-block;
+  display: grid;
   border-radius: 4px;
   background-color: #f4511e;
   border: solid ;
@@ -94,9 +94,7 @@ button.buttonTablet {
   transition: all 0.5s;
   cursor:move;
   margin: 5px;
-  position: relative;
-  left: 530px;
-  top:500px;
+  margin: 100px auto;
   cursor: pointer;
 }
 
@@ -193,7 +191,7 @@ div.PortatilbgImg1{
   margin-left: 15px;
 }
 button.buttonLapt {
-  display: inline-block;
+  display: grid;
   border-radius: 4px;
   background-color: #f4511e;
   border: solid ;
@@ -205,9 +203,7 @@ button.buttonLapt {
   transition: all 0.5s;
   cursor:move;
   margin: 5px;
-  position: relative;
-  left: 530px;
-  top:450px;
+ margin: 100px auto;
   cursor: pointer;
 }
 
