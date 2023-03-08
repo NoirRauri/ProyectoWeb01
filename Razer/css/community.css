@@ -6,6 +6,7 @@
 /* importacion de styles del footer */
 @import url("footer.css");
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -15,7 +16,7 @@ html{
 .bgImg1{
 
     height: 700px;
-    background-image: url(../img/community/bg-community1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/community/bg-community1.jpg);
     background-position: 70%;
     width: 299px;
     background-size: cover;
@@ -23,16 +24,24 @@ html{
 }
 
 /*parrafo*/
-/* .pCommunity{
+.pCommunity{
     align-items: center;
     justify-content: center;
     display: grid;
-    margin: 150px 0 auto;
-    width: 800px;
-    color: var( --bg-OptimusB);
-    font-size: 90px;
+    margin: 80px auto;
+    width: 1300px;
+    color: var( --title-color);
+    font-size: 60px;
     overflow:visible;
-} */
+    
+    text-shadow: 3px 2px 3px var(--optimus-primary);
+}
 
 
 
+div.intro-mainC {
+    background-color: black;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
