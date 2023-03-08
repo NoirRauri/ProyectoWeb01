@@ -16,7 +16,8 @@
   <header class="shadow">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand d-none d-sm-block lgtxt me-5" href="../index.html"><img src="" alt="" /> OpstimusTec</a>
+        <a class="navbar-brand d-none d-sm-block lgtxt me-5" href="../index.html"><img src="../" alt="" />
+          OpstimusTec</a>
         <a class="navbar-brand d-sm-none me-2 lgtxt" href="../index.html"><img src="" alt="" /> OpT</a>
         <div class="navbar-toolbar d-flex align-items-center order-lg-3">
           <button class="navbar-toggler me-auto order-lg-2" type="button" data-bs-toggle="collapse"
@@ -37,10 +38,10 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="Desktop.html">Desktop/Allo on One</a>
+                  <a class="dropdown-item" href="Desktop.html">Desktop</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="Portatil.html">Portatil/TabletsPC</a>
+                  <a class="dropdown-item" href="Portatil.html">Portatil</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="Software.html">Software</a>
@@ -93,12 +94,12 @@
         <form action="#">
           <div class="inputB">
             <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
-            <input type="email" required />
+            <input type="email" />
             <label for="">@email</label>
           </div>
           <div class="inputB">
             <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
-            <input type="password" required />
+            <input type="password" />
             <label for="">password</label>
           </div>
           <div class="rememberForgot">
@@ -108,7 +109,9 @@
             </label>
             <a href="#">Forgot Password</a>
           </div>
-          <button type="submit" class="btn">Login</button>
+          <div class="align-items-center">
+            <button type="submit" class="btn btn-light d-block m-auto w-50">Login</button>
+          </div>
           <div class="logiRegister">
             <p>
               Don't have an account?
@@ -124,27 +127,27 @@
           <div class="inputB">
             <span class="icon"><i class="bi bi-person-vcard-fill"></i></span>
             <input type="text" required />
-            <label for="">Full Name</label>
+            <label for="">Full Name<code>*</code></label>
           </div>
           <div class="inputB">
             <span class="icon"><i class="bi bi-person-fill"></i></span>
             <input type="text" required />
-            <label for="">Username</label>
+            <label for="">Username<code>*</code></label>
           </div>
           <div class="inputB">
             <span class="icon"><i class="bi bi-telephone-fill"></i></span>
-            <input type="number" required />
+            <input type="number" />
             <label for="">Phone</label>
           </div>
           <div class="inputB">
             <span class="icon"><i class="bi bi-envelope-fill"></i> </span>
             <input type="email" required />
-            <label for="">@email</label>
+            <label for="">@email<code>*</code></label>
           </div>
           <div class="inputB">
             <span class="icon"><i class="bi bi-shield-lock-fill"></i></span>
             <input type="password" required />
-            <label for="">password</label>
+            <label for="">password<code>*</code></label>
           </div>
           <div class="rememberForgot">
             <label for="" class="text-uppercase">Gender:</label>
@@ -158,6 +161,11 @@
                 value="option2" />
               <label class="form-check-label" for="inlineRadio2">Female</label>
             </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                value="option3" />
+              <label class="form-check-label" for="inlineRadio3">Other</label>
+            </div>
           </div>
           <div class="rememberForgot">
             <label for="">
@@ -165,7 +173,9 @@
               I agree to yhe terms & conditions
             </label>
           </div>
-          <button type="submit" class="btn text-primary">Resgister</button>
+          <div class="align-items-center">
+            <button type="submit" class="btn btn-light d-block m-auto w-50">Register</button>
+          </div>
           <div class="logiRegister">
             <p>
               Already have an account
@@ -176,15 +186,36 @@
       </div>
     </div>
     <!-- end PopUp -->
+    <div class="gotopContainer">
+      <div class="gotopBtn">
+        <i class="bi bi-caret-up-fill"></i>
+      </div>
+    </div>
   </header>
   <!-- end Header -->
 
+  <!-- <video src="../video/Samsung  Crea el futuro_1080p .mp4" autoplay loop muted></video> -->
+
   <main class="container-fluid">
-    <h1>life style</h1>
+    <section class="row" style="height: 1000px;">
+    </section>
+
+    <section class="row ">
+      <div class="yt-video bo-temp">
+        <div class="col w-auto">
+          <iframe title="video" id="_productvideo" frameborder="0" width="100%" height="" allow="autoplay"
+            src="https://www.youtube.com/embed/4UoUiIxqFI8?playsinline=1&amp;controls=1&amp;modestbranding=1&amp;enablejsapi=1"
+            pnxssr_4="" class="show"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="row" style="height: 1000px;">
+    </section>
   </main>
 
   <!-- start Footer -->
-  <footer class="container-fluid">
+  <footer class="container-fluid bg-black">
     <div class="row py-2">
       <div class="col-lg-4 col-md-6 text">
         <div class="py-2">
@@ -265,7 +296,7 @@
   </footer>
   <!-- end Footer -->
 
-  <script src="../JS/account.js"></script>
+  <script src="../JS/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
