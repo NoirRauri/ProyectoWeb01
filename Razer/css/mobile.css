@@ -58,7 +58,7 @@ div.transitionMobile:hover {
   
     height: 700px;
     max-width: 100%;
-    color: var( --bg-Optimus);
+    color: var(  --bg-OptimusB);
  } 
  div.bgImg1{
     background-image: url(../img/Mobile/bg-section8.jpg);
@@ -325,7 +325,7 @@ section.Mobileseccion9{
   
     height: 700px;
     max-width: 100%;
-    color: var(--bg-Optimus);
+    color: var(--title-color);
     
  } 
  div.bgImg3{
