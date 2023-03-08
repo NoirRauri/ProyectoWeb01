@@ -5,3 +5,61 @@
 @import url("header.css");
 /* importacion de styles del footer */
 @import url("footer.css");
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*main*/
+/*Welcome to community bg images*/
+.bgImg1{
+
+    height: 700px;
+    background-image: url(../img/community/bg-community1.jpg);
+    background-position: 70%;
+    width: 299px;
+}
+.bgImg2{
+
+    height: 700px;
+    background-image: url(../img/community/bg-community2.jpg);
+    background-position: 100%;
+    width: 800px;
+}
+/*parrafo*/
+.pCommunity{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 150px 0 auto;
+    width: 800px;
+    color: var( --optimus-primary);
+    font-size: 90px;
+    overflow:visible;
+}
+.pCommunity1{
+    /* align-items: center;
+    justify-content: center; */
+    /* display: grid; */
+    text-align: center;
+    margin: 0px auto;
+    width: 800px;
+    color: var( --optimus-secundary);
+    font-size: 90px;
+    overflow:visible;
+}
+
+
+.bgImg3{
+
+    height: 700px;
+    background-image: url(../img/community/bg-community3.jpg);
+    background-position: 70%;
+    width: 250px;
+}
+.bgImg1,.bgImg2,.bgImg3{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
