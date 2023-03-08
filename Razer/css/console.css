@@ -74,14 +74,17 @@ section {
   font-size: 60px;
 }
 
-.secPSB-03 {
+.secPSB-03,
+.secPSB-08 {
   height: 700px;
 }
 
 .secPSB-03 .bgHH1,
-.secPSB-03 .bgHH2 {
+.secPSB-03 .bgHH2,
+.secPSB-08 .bgHH1,
+.secPSB-08 .bgHH2 {
   border-radius: 5px;
-  background-position: center bottom;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -127,6 +130,17 @@ section {
 
 .secPSB-07 {
   background-image: url("../img/Console/sonic-the-hedgehog-xbox-controller-and-charging-stand-1920x700-desktop.jpg");
+}
+
+.secPSB-08 .bgHH1 {
+  background-image: url("../img/Console/razer-universal-quick-charging-stand-xbox-500x500-usca.jpg");
+  /* background-repeat: no-repeat;
+  background-position: center top; */
+}
+.secPSB-08 .bgHH2 {
+  background-image: url("../img/Console/razer-quick-charging-for-ps5-category-latest.jpg");
+  /* background-repeat: no-repeat;
+  background-position: center top; */
 }
 
 .secPSB-09 {
