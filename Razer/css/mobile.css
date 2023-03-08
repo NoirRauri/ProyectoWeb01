@@ -16,34 +16,38 @@ html {
 
 /*Main*/
 .MobileSecOne {
-    height: 700px;
-  }
-  div.Mobiletitle {
-    background-image: url(../img/Mobile/bg-mobile-titlt.jpg);
-    background-size: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: var(--title-color);
-  }
-  h1.MobiletextTitle {
-    position: relative;
-    bottom: 55px;
-    text-shadow: 3px 2px 3px blue;
-    font-size: 70px;
-  }
+  height: 700px;
+}
 
-  /*High Range*/
+div.Mobiletitle {
+  background-image: url(../img/Mobile/bg-mobile-titlt.jpg);
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--title-color);
+}
 
-  
-  /*Transicion Mobile */
+h1.MobiletextTitle {
+  position: relative;
+  bottom: 55px;
+  text-shadow: 3px 2px 3px blue;
+  font-size: 70px;
+}
+
+/*High Range*/
+
+
+/*Transicion Mobile */
 .secTwo {
   max-height: 600px;
 }
+
 div.transitionMobile {
   width: 500px;
   transition-property: height ease;
 }
+
 div.transitionMobile:hover {
   background-image: url(../img/Mobile/bg-transicion.jpg);
   background-repeat: no-repeat;
@@ -51,84 +55,88 @@ div.transitionMobile:hover {
   background-size: cover;
   transition: 0.5s;
 }
+
 /*Transicion */
 
 /*Seccion 3*/
- section.MobileSecThree{
-  
-    height: 700px;
-    max-width: 100%;
-    color: var(  --bg-OptimusB);
- } 
- div.bgImg1{
-    background-image: url(../img/Mobile/bg-section8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 15px;
- }
- 
+section.MobileSecThree {
 
- button.button1 {
-    display: grid;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: solid ;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 20px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor:move;
-    margin: 5px;
-    margin: 100px auto;
-    cursor: pointer;
-  }
-  
-  .button1 span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button1 span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button1:hover span {
-    padding-right: 25px;
-  }
-  
-  .button1:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+  height: 700px;
+  max-width: 100%;
+  color: var(--bg-OptimusB);
+}
+
+div.bgImg1 {
+  background-image: url(../img/Mobile/bg-section8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-left: 15px;
+}
+
+
+button.button1 {
+  display: grid;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: solid;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: move;
+  margin: 5px;
+  margin: 100px auto;
+  cursor: pointer;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
 /*Seccion 3*/
 
 
 /*Seccion 4*/
 
-.MobileSeccion4col1{
+.MobileSeccion4col1 {
   font-size: larger;
   display: inline-block;
   height: 600px;
   width: 600px;
   background-image: url(../img/Mobile/bg-product1section4.jpg);
-  
+
   margin-top: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80%;
-  
+
 }
-.MobileSeccion4col2{
+
+.MobileSeccion4col2 {
   font-size: larger;
   display: inline-block;
   height: 600px;
@@ -142,7 +150,7 @@ div.transitionMobile:hover {
 
 }
 
-.MobileSeccion4col3{
+.MobileSeccion4col3 {
   font-size: larger;
   display: inline-block;
   height: 600px;
@@ -154,7 +162,8 @@ div.transitionMobile:hover {
   background-size: cover;
   background-position: 90%;
 }
-.MobileSeccion4col4{
+
+.MobileSeccion4col4 {
   font-size: larger;
   display: inline-block;
   height: 600px;
@@ -172,51 +181,56 @@ div.transitionMobile:hover {
 /*Medium Range*/
 
 
-  /*Transicion Mobile */
-  .secTwo {
-    max-height: 600px;
-  }
-  div.transitionMobile {
-    width: 500px;
-    transition-property: height ease;
-  }
-  div.transitionMobile2:hover {
-    background-image: url(../img/Mobile/bg-transicion.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: 0.5s;
-  }
-  /*Transicion */
+/*Transicion Mobile */
+.secTwo {
+  max-height: 600px;
+}
+
+div.transitionMobile {
+  width: 500px;
+  transition-property: height ease;
+}
+
+div.transitionMobile2:hover {
+  background-image: url(../img/Mobile/bg-transicion.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+/*Transicion */
 /*Seccion 6*/
-section.Mobilseccion6{
-  
-    height: 700px;
-    max-width: 100%;
-    color: var( --title-color);
- } 
- div.bgImg2{
-    background-image: url(../img/Mobile/bg-section6.1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
- }
+section.Mobilseccion6 {
+
+  height: 700px;
+  max-width: 100%;
+  color: var(--title-color);
+}
+
+div.bgImg2 {
+  background-image: url(../img/Mobile/bg-section6.1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
 
 
- /*btn seccion 6*/
- button.button2 {
+/*btn seccion 6*/
+button.button2 {
   display: grid;
   border-radius: 4px;
   background-color: #f4511e;
-  border: solid ;
+  border: solid;
   color: #FFFFFF;
   text-align: center;
   font-size: 20px;
   padding: 20px;
   width: 200px;
   transition: all 0.5s;
-  cursor:move;
+  cursor: move;
   margin: 5px;
- margin: 100px auto;
+  margin: 100px auto;
   cursor: pointer;
 }
 
@@ -246,8 +260,8 @@ section.Mobilseccion6{
 }
 
 
- /*Seccion 7*/
- .MobileSeccion7col1{
+/*Seccion 7*/
+.MobileSeccion7col1 {
   font-size: larger;
   display: inline-block;
   height: 600px;
@@ -261,7 +275,7 @@ section.Mobilseccion6{
 }
 
 
-.MobileSeccion7col2{
+.MobileSeccion7col2 {
   font-size: larger;
   display: inline-block;
   height: 600px;
@@ -274,7 +288,7 @@ section.Mobilseccion6{
   background-position: 90%;
 }
 
-.MobileSeccion7col3{
+.MobileSeccion7col3 {
   font-size: larger;
   display: inline-block;
   height: 600px;
@@ -284,10 +298,10 @@ section.Mobilseccion6{
   margin-left: 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 90%;   
+  background-position: 90%;
 }
 
-.MobileSeccion7col4{
+.MobileSeccion7col4 {
   font-size: larger;
   display: inline-block;
   height: 600px;
@@ -297,63 +311,69 @@ section.Mobilseccion6{
   margin-left: 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 45%;   
+  background-position: 45%;
 }
 
 /*Low range transicion*/
 
 
-  /*Transicion Mobile */
-  .secTwo {
-    max-height: 600px;
-  }
-  div.transitionMobile {
-    width: 500px;
-    transition-property: height ease;
-  }
-  div.transitionMobile3:hover {
-    background-image: url(../img/Mobile/bg-transicion.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: 0.5s;
-  }
-  /*Transicion */
+/*Transicion Mobile */
+.secTwo {
+  max-height: 600px;
+}
+
+div.transitionMobile {
+  width: 500px;
+  transition-property: height ease;
+}
+
+div.transitionMobile3:hover {
+  background-image: url(../img/Mobile/bg-transicion.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+/*Transicion */
 
 /*seccionn 9*/
-section.Mobileseccion9{
-  
-    height: 700px;
-    max-width: 100%;
-    color: var(--title-color);
-    
- } 
- div.bgImg3{
-    background-image: url(../img/Mobile/bg-section9.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
- }
- div.bgImg3 img{
+section.Mobileseccion9 {
+
+  height: 700px;
+  max-width: 100%;
+  color: var(--title-color);
+
+}
+
+div.bgImg3 {
+  background-image: url(../img/Mobile/bg-section9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
+}
+
+div.bgImg3 img {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
- /*btn seccion 9*/
- button.button3 {
+/*btn seccion 9*/
+button.button3 {
   display: grid;
   border-radius: 4px;
   background-color: #f4511e;
-  border: solid ;
+  border: solid;
   color: #FFFFFF;
   text-align: center;
   font-size: 20px;
   padding: 20px;
   width: 200px;
   transition: all 0.5s;
-  cursor:move;
+  cursor: move;
   margin: 5px;
   margin: 100px auto;
   cursor: pointer;
@@ -385,64 +405,66 @@ section.Mobileseccion9{
 }
 
 
-  /*Seccion 10*/
-  .MobileSeccion10col1{
-    font-size: larger;
-    display: inline-block;
-    height: 600px;
-    width: 600px;
-    background-image: url(../img/Mobile/bg-product2section10.jpg);
-    
-    margin-top: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 80%;
-    
-  }
+/*Seccion 10*/
+.MobileSeccion10col1 {
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product2section10.jpg);
 
-  .MobileSeccion10col2{
-    font-size: larger;
-    display: inline-block;
-    height: 600px;
-    width: 600px;
-    background-image: url(../img/Mobile/bg-product1section10.jpg);
-    
-    margin-top: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 80%;
-    
-  }
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
 
-  /*ultima bg image*/
-  .lastsec{
-    color: whitesmoke;
-    font-size: larger;
-    background-image: url(../img/Mobile/bg-lastsec.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-  }
-  .lastsecDiv{
-    height: 200px;
-    width: 1000px;
-    margin-left: 300px;
-    
-  }
+}
 
-   /*btn seccion last*/
- button.button4 {
+.MobileSeccion10col2 {
+  font-size: larger;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/Mobile/bg-product1section10.jpg);
+
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+
+}
+
+/*ultima bg image*/
+.lastsec {
+  color: whitesmoke;
+  font-size: larger;
+  background-image: url(../img/Mobile/bg-lastsec.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 700px;
+}
+
+.lastsecDiv {
+  height: 200px;
+  width: 1000px;
+  margin-left: 300px;
+
+}
+
+/*btn seccion last*/
+button.button4 {
   display: grid;
   border-radius: 4px;
   background-color: #f4511e;
-  border: solid ;
+  border: solid;
   color: #FFFFFF;
   text-align: center;
   font-size: 20px;
   padding: 20px;
   width: 170px;
   transition: all 0.5s;
-  cursor:move;
+  cursor: move;
   margin: 5px;
   margin: 350px auto;
   cursor: pointer;
