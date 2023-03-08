@@ -18,16 +18,12 @@ html{
     background-image: url(../img/community/bg-community1.jpg);
     background-position: 70%;
     width: 299px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.bgImg2{
 
-    height: 700px;
-    background-image: url(../img/community/bg-community2.jpg);
-    background-position: 100%;
-    width: 800px;
-}
 /*parrafo*/
-.pCommunity{
+/* .pCommunity{
     align-items: center;
     justify-content: center;
     display: grid;
@@ -36,30 +32,7 @@ html{
     color: var( --bg-OptimusB);
     font-size: 90px;
     overflow:visible;
-}
-.pCommunity1{
-    /* align-items: center;
-    justify-content: center; */
-    /* display: grid; */
-    text-align: center;
-    margin: 0px auto;
-    width: 800px;
-    color: var( --bg-OptimusB);
-    font-size: 90px;
-    overflow:visible;
-}
+} */
 
 
-.bgImg3{
 
-    height: 700px;
-    background-image: url(../img/community/bg-community3.jpg);
-    background-position: 70%;
-    width: 250px;
-}
-.bgImg1,.bgImg2,.bgImg3{
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    
-}
