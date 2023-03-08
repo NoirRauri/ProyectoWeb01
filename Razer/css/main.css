@@ -118,8 +118,7 @@
   min-width: 260px;
 }
 .gridImg {
-  background-position: center;
-  background-position: bottom;
+  background-position: center bottom;
   min-height: 480px;
   transition: all 0.5s ease;
 }

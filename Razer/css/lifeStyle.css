@@ -5,3 +5,31 @@
 @import url("header.css");
 /* importacion de styles del footer */
 @import url("footer.css");
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+section.row {
+  height: 750px;
+}
+
+.bo-temp.yt-video iframe {
+  position: absolute;
+  z-index: 1;
+  height: 700px;
+  width: 100%;
+}
+
+video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  /* centra el video */
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  /*  */
+  z-index: -1;
+}
