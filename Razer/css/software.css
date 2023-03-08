@@ -5,6 +5,8 @@
 @import url("header.css");
 /* importacion de styles del footer */
 @import url("footer.css");
+/*imortacion de css desktop*/
+@import url("desktop.css");
 
 html{
     scroll-behavior: smooth;

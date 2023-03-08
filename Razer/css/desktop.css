@@ -25,7 +25,8 @@ div.title {
 h1.textTitle {
   position: relative;
   bottom: 55px;
-  text-shadow: 3px 2px 3px blue;
+  text-shadow: 3px 2px 3px ;
+  color:var(--optimus-primary);
   font-size: 70px;
 }
 
