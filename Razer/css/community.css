@@ -7,35 +7,44 @@
 @import url("footer.css");
 
 
-html{
+html {
     scroll-behavior: smooth;
+}
+
+section.bgVideo {
+    height: 960px;
 }
 
 /*main*/
 /*Welcome to community bg images*/
-.bgImg1{
+.bgImg1 {
 
     height: 700px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/community/bg-community1.jpg);
     background-position: 70%;
-    width: 299px;
+    /* width: 299px; */
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
 
-/*parrafo*/
-.pCommunity{
-    align-items: center;
-    justify-content: center;
-    display: grid;
-    margin: 80px auto;
-    width: 1300px;
-    color: var( --title-color);
-    font-size: 60px;
-    overflow:visible;
-    
-    text-shadow: 3px 2px 3px var(--optimus-primary);
+.bgImg1 h5 {
+    text-shadow: 0px 0px 6px white;
+
 }
+
+.bgImg1 span {
+    text-shadow: 0px 0px 6px black;
+
+}
+
+
+/*parrafo*/
 
 
 /*below welcome to the community bg image*/
@@ -44,42 +53,86 @@ div.intro-mainC {
     height: 350px;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
-.getStarted{
+.getStarted {
     height: 800px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/community/bg-getStarted1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/community/bg-getStarted1.jpg);
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
 }
-.getStartedKids{
+
+.getStartedKids {
     height: 800px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/community/bg-getStartedKids.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/community/bg-getStartedKids.jpg);
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
 }
-.getStartedP{
+
+.getStartedP {
     margin-top: 50px;
     font-size: 30px;
     color: var(--title-color);
 }
-.getStartedSpan{
 
-   
-width: 100px;
-height: 100px;
+.getStartedSpan {
+
+
+    width: 100px;
+    height: 100px;
 }
 
-.competition{
+.competition {
     height: 800px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/community/bg-competition.jpg);
-    background-repeat: no-repeat;
-    background-size:cover ;
+    background-color: black;
+    padding: 0;
 }
 
-.stream{
+.competition iframe {
+
+    height: 500px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.stream {
     height: 800px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/community/bg-streams.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/community/bg-streams.webp);
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    /* centra el video */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /*  */
+    z-index: -1;
+}
+
+/*redes*/
+.secRedes {
+
+    height: 200px;
+    background-color: var(--bg-OptimusT);
+}
+
+.colRedes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Lista de redes*/
+.redLista {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin: 0 auto;
+
 }

@@ -9,11 +9,13 @@
 html {
   scroll-behavior: smooth;
 }
+
 /*---Main---*/
 
 .secOne {
   height: 700px;
 }
+
 div.title {
   background-image: url(../img/Desktop/bg-deskAll.jpg);
   background-size: 100%;
@@ -21,6 +23,7 @@ div.title {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 h1.textTitle {
   position: relative;
   bottom: 55px;
@@ -33,11 +36,13 @@ h1.textTitle {
   overflow: hidden;
   max-height: 600px;
 }
+
 div.transitionDesktop {
   height: 700px;
 
-  transition:  ease;
+  transition: ease;
 }
+
 div.transitionDesktop:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Desktop/bg-transition1.jpg);
   background-repeat: no-repeat;
@@ -45,6 +50,7 @@ div.transitionDesktop:hover {
   background-size: cover;
   transition: 0.5s;
 }
+
 /*Transicion */
 
 /*bg image despues de la transicion del destop*/
@@ -53,14 +59,17 @@ section.DeskSec {
   max-width: 100%;
   color: var(--optimus-primary);
 }
+
 div.DeskbgImg1 {
   background-image: url(../img/Desktop/bg-desk1.jpg);
   background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: cover;
   margin-left: 15px;
   transition: all 0.5s ease;
 
 }
+
 div.DeskbgImg1:hover {
   transform: scale(1.05);
 }
@@ -122,6 +131,7 @@ button.button1 {
   background-size: cover;
   background-position: 80%;
 }
+
 .DeskProduct2 {
   font-size: larger;
   display: inline-block;
@@ -134,6 +144,7 @@ button.button1 {
   background-size: cover;
   background-position: 90%;
 }
+
 .DeskProduct3 {
   font-size: larger;
   display: inline-block;
@@ -146,6 +157,7 @@ button.button1 {
   background-size: cover;
   background-position: 80%;
 }
+
 .DeskProduct4 {
   font-size: larger;
   display: inline-block;
@@ -177,10 +189,12 @@ div.intro-main {
 .secNine {
   max-height: 600px;
 }
+
 div.transitionAllInOne {
   width: 500px;
   transition-property: height ease;
 }
+
 div.transitionAllInOne:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Desktop/bg-transition2.jpg);
   background-repeat: no-repeat;
@@ -195,6 +209,7 @@ section.AllinOneSec {
   max-width: 100%;
   color: var(--optimus-primary);
 }
+
 div.AllinOnebgImg1 {
   background-image: url(../img/Desktop/bg-AllinOne1.jpg);
   background-repeat: no-repeat;
@@ -259,6 +274,7 @@ button.buttonALLinOne {
   background-size: cover;
   background-position: 80%;
 }
+
 .AllinOneProduct2 {
   font-size: larger;
   display: inline-block;
@@ -271,6 +287,7 @@ button.buttonALLinOne {
   background-size: cover;
   background-position: 80%;
 }
+
 .AllinOneProduct3 {
   font-size: larger;
   display: inline-block;
@@ -283,6 +300,7 @@ button.buttonALLinOne {
   background-size: cover;
   background-position: 90%;
 }
+
 .AllinOneProduct4 {
   font-size: larger;
   display: inline-block;
@@ -305,10 +323,12 @@ button.buttonALLinOne {
   animation-direction: alternate-reverse;
   animation-timing-function: ease-in-out;
 }
+
 @keyframes mymove {
   from {
     left: 0px;
   }
+
   to {
     left: 550px;
   }
@@ -317,6 +337,7 @@ button.buttonALLinOne {
 h1.animationTitle {
   color: var(--title-color);
 }
+
 /*animacion*/
 
 .carouselClass {
@@ -327,9 +348,11 @@ h1.animationTitle {
 .imgCarousel {
   width: 100%;
 }
+
 .imgCarousel img {
   margin: 0 auto;
 }
+
 /* end img */
 
 /*OptimusTec slogan*/
@@ -338,12 +361,14 @@ section.rowOptimus {
   margin: 40px 0;
   font-size: 50px;
 }
+
 div.bgOptimus {
   background-image: url(../img/Desktop/bg-optimus6.jpg);
   background-size: cover;
   height: 600px;
   transition: all 0.5 ease;
 }
+
 div.bgOptimus:hover {
   transform: scale(1.05);
 }
@@ -351,6 +376,7 @@ div.bgOptimus:hover {
 .h1Optimus:hover {
   text-shadow: 3px 2px 3px #ff0033;
 }
+
 .strongOptimus:hover {
   text-shadow: 3px 2px 3px #ff0033;
   font-size: 60px;
@@ -361,10 +387,12 @@ div.bgOptimus:hover {
   top: 200px;
   font-size: 30px;
 }
+
 .strongOptimus2:hover {
   text-shadow: 3px 2px 3px #ff0033;
   font-size: 40px;
 }
+
 /*Return*/
 .btnReturn {
   margin: 0px 0;
@@ -388,6 +416,7 @@ div.bgOptimus:hover {
 .jumbotron-fluid {
   margin-top: 40px;
 }
+
 /* .formUsers {
 
 } */
