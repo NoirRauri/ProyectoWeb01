@@ -12,6 +12,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
 /*Main*/
 
 .SoftSececOne {
@@ -58,6 +63,7 @@ div.transitionDesktop:hover {
 section.SoftwareSec {
   height: 700px;
   max-width: 100%;
+  margin: 0;
 }
 
 div.SoftwarebgImg1 {
@@ -65,7 +71,7 @@ div.SoftwarebgImg1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 button.buttonSoftware {
@@ -81,18 +87,18 @@ button.buttonSoftware {
   transition: all 0.5s;
   cursor: move;
   margin: 5px;
-  margin: 70px auto;
+  margin: 50px auto;
   cursor: pointer;
 }
 
-.button1 span {
+.buttonSoftware span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button1 span:after {
+.buttonSoftware span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -101,11 +107,11 @@ button.buttonSoftware {
   transition: 0.5s;
 }
 
-.button1:hover span {
+.bbuttonSoftware:hover span {
   padding-right: 25px;
 }
 
-.button1:hover span:after {
+.buttonSoftware:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -118,7 +124,7 @@ button.buttonSoftware {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  background-image: url(../img/software/product1.jpg);
 
   margin-top: 50px;
   background-repeat: no-repeat;
@@ -132,7 +138,7 @@ button.buttonSoftware {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  background-image: url(../img/software/product2.jpg);
   margin-top: 50px;
   margin-left: 0px;
   background-repeat: no-repeat;
@@ -173,7 +179,7 @@ button.buttonSoftware {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 button.buttonSoftware2 {
@@ -216,4 +222,16 @@ button.buttonSoftware2 {
 .buttonSoftware2:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  /* centra el video */
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  /*  */
+  z-index: -1;
 }

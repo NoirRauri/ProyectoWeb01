@@ -11,6 +11,10 @@ html {
 }
 
 /*---Main---*/
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
 
 .secOne {
   height: 700px;
@@ -58,6 +62,7 @@ section.DeskSec {
   height: 700px;
   max-width: 100%;
   color: var(--title-color);
+  margin: 0;
 }
 
 div.DeskbgImg1 {
@@ -65,7 +70,8 @@ div.DeskbgImg1 {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  margin-left: 15px;
+  /* margin-left: 15px; */
+  padding: 0;
 
 }
 
@@ -204,6 +210,7 @@ section.AllinOneSec {
   height: 700px;
   max-width: 100%;
   color: var(--title-color);
+  margin: 0;
 }
 
 div.AllinOnebgImg1 {
@@ -211,7 +218,8 @@ div.AllinOnebgImg1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  margin-left: 15px;
+  /* margin-left: 15px; */
+  padding: 0;
 }
 
 button.buttonALLinOne {
@@ -231,14 +239,14 @@ button.buttonALLinOne {
   cursor: pointer;
 }
 
-.button1 span {
+.buttonALLinOne span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button1 span:after {
+.buttobuttonALLinOnen1 span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
@@ -247,11 +255,11 @@ button.buttonALLinOne {
   transition: 0.5s;
 }
 
-.button1:hover span {
+.buttonALLinOne:hover span {
   padding-right: 25px;
 }
 
-.button1:hover span:after {
+.buttonALLinOne:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -359,6 +367,7 @@ section.rowOptimus {
   max-height: 700px;
   margin: 40px 0;
   font-size: 50px;
+
 }
 
 div.bgOptimus {
@@ -366,16 +375,17 @@ div.bgOptimus {
   background-size: cover;
   background-position: center bottom;
   height: 600px;
+  color: var(--br-boxG-color);
 }
 
 
 
 .h1Optimus:hover {
-  text-shadow: 0px 0px 6px var(--optimus-primary);
+  text-shadow: 0px 0px 6px var(--bg-OptimusB);
 }
 
 .strongOptimus:hover {
-  text-shadow: 0px 0px 6px var(--optimus-primary);
+  text-shadow: 0px 0px 6px var(--bg-OptimusB);
   font-size: 60px;
 }
 
@@ -386,7 +396,7 @@ div.bgOptimus {
 }
 
 .strongOptimus2:hover {
-  text-shadow: 0px 0px 6px var(--optimus-primary);
+  text-shadow: 0px 0px 6px var(--bg-OptimusB);
   font-size: 40px;
 }
 
