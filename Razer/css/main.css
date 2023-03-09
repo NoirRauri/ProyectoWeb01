@@ -50,13 +50,20 @@
 
 #txtBrand {
   position: absolute;
-  right: -400px;
+  right: -500px;
   transform: translateY(-100px);
   color: var(--title-color);
   text-shadow: 0 0.2rem 0.6rem var(--optimus-primary);
   white-space: nowrap;
   font-size: 8vh;
   z-index: 9;
+}
+
+#txtBrand img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -5px;
 }
 
 .txtSlogan {
