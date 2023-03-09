@@ -166,3 +166,54 @@ button.buttonSoftware {
   background-size: cover;
   background-position: 90%;
 }
+
+/*antes del slogan*/
+.SoftwarebgImg2 {
+  background-image: url(../img/community/bg-redesSociales.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-left: 15px;
+}
+
+button.buttonSoftware2 {
+  display: grid;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: solid;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: move;
+  margin: 5px;
+  margin: 00px auto;
+  cursor: pointer;
+}
+
+.buttonSoftware2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonSoftware2 span:after {
+  /* content: '\00bb'; */
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonSoftware2:hover span {
+  padding-top: 10px;
+}
+
+.buttonSoftware2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
