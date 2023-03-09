@@ -120,7 +120,7 @@ button.button1 {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../img/Desktop/deskProduct/bg-productDesk1.jpg);
 
   margin-top: 50px;
   background-repeat: no-repeat;
@@ -133,12 +133,12 @@ button.button1 {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../img/Desktop/deskProduct/bg-productDesk2.jpg);
   margin-top: 50px;
   margin-left: 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 90%;
+  background-position: 40%;
 }
 
 .DeskProduct3 {
@@ -146,12 +146,12 @@ button.button1 {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../img/Desktop/deskProduct/bg-productDesk23jpg.jpg);
 
   margin-top: 50px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 80%;
+  background-position: 50%;
 }
 
 .DeskProduct4 {
@@ -159,7 +159,7 @@ button.button1 {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/Desktop/deskProduct/bg-productDesk4.jpg);
   margin-top: 50px;
   margin-left: 0px;
   background-repeat: no-repeat;
@@ -227,7 +227,7 @@ button.buttonALLinOne {
   transition: all 0.5s;
   cursor: move;
   margin: 5px;
-  margin: 90px auto;
+  margin: 50px auto;
   cursor: pointer;
 }
 
@@ -264,7 +264,7 @@ button.buttonALLinOne {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  background-image: url(../img/Desktop/AllinOneProducts/product1.png);
 
   margin-top: 50px;
   background-repeat: no-repeat;
@@ -277,7 +277,7 @@ button.buttonALLinOne {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product1section4.jpg);
+  background-image: url(../img/Desktop/AllinOneProducts/product2.png);
 
   margin-top: 50px;
   background-repeat: no-repeat;
@@ -290,12 +290,12 @@ button.buttonALLinOne {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  background-image: url(../img/Desktop/AllinOneProducts/product3.png);
   margin-top: 50px;
   margin-left: 0px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 90%;
+  background-position: 30%;
 }
 
 .AllinOneProduct4 {
@@ -303,7 +303,7 @@ button.buttonALLinOne {
   display: inline-block;
   height: 600px;
   width: 600px;
-  background-image: url(../img/Mobile/bg-product2section4.jpg);
+  background-image: url(../img/Desktop/AllinOneProducts/product4.png);
   margin-top: 50px;
   margin-left: 0px;
   background-repeat: no-repeat;
@@ -348,6 +348,8 @@ h1.animationTitle {
 
 .imgCarousel img {
   margin: 0 auto;
+  height: 500px;
+  width: 40%;
 }
 
 /* end img */
